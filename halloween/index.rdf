@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+xmlns:admin="http://webns.net/mvcb/"
+xmlns:cc="http://web.resource.org/cc/"
+xmlns="http://purl.org/rss/1.0/">
+
+<channel rdf:about="http://www.avocado8.com/halloween/">
+<title>all hallows eve</title>
+<link>http://www.avocado8.com/halloween/</link>
+<description></description>
+<dc:creator></dc:creator>
+<dc:date>2005-10-31T19:00:29-05:00</dc:date>
+<admin:generatorAgent rdf:resource="http://www.movabletype.org/?v=3.34" />
+
+
+<items>
+<rdf:Seq><rdf:li rdf:resource="http://www.avocado8.com/halloween/archives/2004/#001065" />
+<rdf:li rdf:resource="http://www.avocado8.com/halloween/archives/2004/#001066" />
+<rdf:li rdf:resource="http://www.avocado8.com/halloween/archives/2004/#001067" />
+<rdf:li rdf:resource="http://www.avocado8.com/halloween/archives/2005/#001726" />
+<rdf:li rdf:resource="http://www.avocado8.com/halloween/archives/2005/#001727" />
+<rdf:li rdf:resource="http://www.avocado8.com/halloween/archives/2005/#001728" />
+<rdf:li rdf:resource="http://www.avocado8.com/halloween/archives/2005/#001729" />
+<rdf:li rdf:resource="http://www.avocado8.com/halloween/archives/2005/#001730" />
+<rdf:li rdf:resource="http://www.avocado8.com/halloween/archives/2005/#001731" />
+<rdf:li rdf:resource="http://www.avocado8.com/halloween/archives/2005/#001732" />
+<rdf:li rdf:resource="http://www.avocado8.com/halloween/archives/2005/#001733" />
+<rdf:li rdf:resource="http://www.avocado8.com/halloween/archives/2005/#001734" />
+<rdf:li rdf:resource="http://www.avocado8.com/halloween/archives/2005/#001735" />
+<rdf:li rdf:resource="http://www.avocado8.com/halloween/archives/2005/#001736" />
+<rdf:li rdf:resource="http://www.avocado8.com/halloween/archives/2005/#001737" />
+</rdf:Seq>
+</items>
+
+</channel>
+
+<item rdf:about="http://www.avocado8.com/halloween/archives/2004/#001065">
+<title>Another Skeleton</title>
+<link>http://www.avocado8.com/halloween/archives/2004/#001065</link>
+<description><![CDATA[A skeleton of about 9 or 10 just dashed up for her candy, and after a quick "thank you," dashed back down. "You didn't even look at their costumes!" said her dad. "Oh, I went as SpongeBob <em>two years ago</em>," she replied. "That's my costume from 2000," I said, jerking a thumb at Al. "He's just borrowing it this year." She didn't seem impressed.]]></description>
+<dc:subject>2004</dc:subject>
+<dc:creator>Lori</dc:creator>
+<dc:date>2004-10-31T19:04:06-05:00</dc:date>
+</item>
+<item rdf:about="http://www.avocado8.com/halloween/archives/2004/#001066">
+<title>Break</title>
+<link>http://www.avocado8.com/halloween/archives/2004/#001066</link>
+<description>I wonder if we&apos;re done yet. I wouldn&apos;t be surprised, given that it&apos;s a Sunday (when Halloween falls on a weeknight it seems to go later because parents have to get home from work before the festivities can start). I also wouldn&apos;t mind; I&apos;m tired and craving protein. Al and I are considering walking to Whole Foods to buy some fish. The question is: Should we change?</description>
+<dc:subject>2004</dc:subject>
+<dc:creator>Lori</dc:creator>
+<dc:date>2004-10-31T19:20:21-05:00</dc:date>
+</item>
+<item rdf:about="http://www.avocado8.com/halloween/archives/2004/#001067">
+<title>Morning After</title>
+<link>http://www.avocado8.com/halloween/archives/2004/#001067</link>
+<description><![CDATA[That was indeed it for the night. Al postulated that Halloween ended earlier here not because it was a Sunday, but because we live in a city; parents don't want their kids out as late here. We did end up going to Whole Foods in costume, though I removed my hood for safety reasons. One of the checkers still recognized us as SpongeBob and Patrick, though. :)<br />
+<br />
+This morning when I went out to get the trash cans off the sidewalk, one of my neighbors walked by, talking on a cell phone. I just smiled, so as not to interrupt his conversation. He saw me, looked down at the belly, and then covered the phone with his hand and said, "great costumes last night, by the way." I thanked him and then immediately started wondering what Al, I, and the baby could dress up as next year...]]></description>
+<dc:subject>2004</dc:subject>
+<dc:creator>Lori</dc:creator>
+<dc:date>2004-11-01T08:40:25-05:00</dc:date>
+</item>
+<item rdf:about="http://www.avocado8.com/halloween/archives/2005/#001726">
+<title>Tricky</title>
+<link>http://www.avocado8.com/halloween/archives/2005/#001726</link>
+<description>This is going to be a tricky year for Halloween blogging, given that I&apos;m now mom to an 11 month-old. Hopefully we&apos;ll be able to corral Austen, hand out candy, and track the trick or treaters successfully. Stand by!</description>
+<dc:subject>2005</dc:subject>
+<dc:creator>Lori</dc:creator>
+<dc:date>2005-10-31T17:28:14-05:00</dc:date>
+</item>
+<item rdf:about="http://www.avocado8.com/halloween/archives/2005/#001727">
+<title>Foiled</title>
+<link>http://www.avocado8.com/halloween/archives/2005/#001727</link>
+<description>Al&apos;s plan to come home early was totally foiled by a long-running meeting. No sooner had he walked in the door&amp;#8212;and before we&apos;d had a chance to turn on the outside light or bring in the trash can&amp;#8212;we had our first trick-or-treater. I think it was Freddy; he had a little trouble selecting a candy bar with his fingerblades.</description>
+<dc:subject>2005</dc:subject>
+<dc:creator>Lori</dc:creator>
+<dc:date>2005-10-31T17:34:44-05:00</dc:date>
+</item>
+<item rdf:about="http://www.avocado8.com/halloween/archives/2005/#001728">
+<title>Tinkerbell and Thomas</title>
+<link>http://www.avocado8.com/halloween/archives/2005/#001728</link>
+<description>Tinkerbell and Thomas the Tank Engine just came by and chose a Smores bar and a Kit Kat, respectively. Tinkerbell in particular looked beautiful, just like a fairy should.</description>
+<dc:subject>2005</dc:subject>
+<dc:creator>Lori</dc:creator>
+<dc:date>2005-10-31T17:42:15-05:00</dc:date>
+</item>
+<item rdf:about="http://www.avocado8.com/halloween/archives/2005/#001729">
+<title>Describe Your Costume for Me</title>
+<link>http://www.avocado8.com/halloween/archives/2005/#001729</link>
+<description>A little girl who almost passed us by came up the steps and selected a Take 5 and a Hershey bar (it&apos;s funny to see who takes more than one item, and whether they ask permission first). I was unable to determine what she was at first glance, so I said, &quot;can you describe your costume for me?&quot; She looked puzzled, so I took it down a notch. &quot;What are you?&quot; She gave me a withering look and said, &quot;I&apos;m a fairy princess.&quot;</description>
+<dc:subject>2005</dc:subject>
+<dc:creator>Lori</dc:creator>
+<dc:date>2005-10-31T18:14:01-05:00</dc:date>
+</item>
+<item rdf:about="http://www.avocado8.com/halloween/archives/2005/#001730">
+<title>Paulina Pumpkin</title>
+<link>http://www.avocado8.com/halloween/archives/2005/#001730</link>
+<description>Our neighbors, who have a 15 month-old, just stopped by to show off Polly&apos;s pumpkin costume and admire Austen&apos;s shark suit. They were followed immediately by a year-old Superman, who fished around in the bowl for a while before coming up with a Take 5.</description>
+<dc:subject>2005</dc:subject>
+<dc:creator>Lori</dc:creator>
+<dc:date>2005-10-31T18:18:39-05:00</dc:date>
+</item>
+<item rdf:about="http://www.avocado8.com/halloween/archives/2005/#001731">
+<title>Edward Scissorhands et. al</title>
+<link>http://www.avocado8.com/halloween/archives/2005/#001731</link>
+<description><![CDATA[We just got the mob from the party in Coxe Park&#8212;the costumes come so fast and furious that it's hard to keep track. The highlight was an amazing Edward Scissorhands; also in the group were a Harry Potter, an M&amp;M, a couple Spidermen, and a family of Incredibles.]]></description>
+<dc:subject>2005</dc:subject>
+<dc:creator>Lori</dc:creator>
+<dc:date>2005-10-31T18:24:52-05:00</dc:date>
+</item>
+<item rdf:about="http://www.avocado8.com/halloween/archives/2005/#001732">
+<title>Greedy</title>
+<link>http://www.avocado8.com/halloween/archives/2005/#001732</link>
+<description>A Power Ranger just took two items and was contemplating a third choice when I retracted the bowl. Let&apos;s not be greedy now.</description>
+<dc:subject>2005</dc:subject>
+<dc:creator>Lori</dc:creator>
+<dc:date>2005-10-31T18:27:08-05:00</dc:date>
+</item>
+<item rdf:about="http://www.avocado8.com/halloween/archives/2005/#001733">
+<title>Mob II</title>
+<link>http://www.avocado8.com/halloween/archives/2005/#001733</link>
+<description><![CDATA[A second wave from Coxe Park just hit; the highlight in this group was a pre-teen dressed as a bat. She looked <em>fabulous</em>.]]></description>
+<dc:subject>2005</dc:subject>
+<dc:creator>Lori</dc:creator>
+<dc:date>2005-10-31T18:30:02-05:00</dc:date>
+</item>
+<item rdf:about="http://www.avocado8.com/halloween/archives/2005/#001734">
+<title>A Pair of Dragons</title>
+<link>http://www.avocado8.com/halloween/archives/2005/#001734</link>
+<description>A pair of dragons approached and had a little trouble with the answer to &quot;what do you say?&quot; The consensus was a whispered &quot;happy Halloween.&quot;</description>
+<dc:subject>2005</dc:subject>
+<dc:creator>Lori</dc:creator>
+<dc:date>2005-10-31T18:34:20-05:00</dc:date>
+</item>
+<item rdf:about="http://www.avocado8.com/halloween/archives/2005/#001735">
+<title>Spin Cycle</title>
+<link>http://www.avocado8.com/halloween/archives/2005/#001735</link>
+<description>A very clever front-loading washer ambled up the steps and had us load her choice (a Hershey bar)... well, into the front, of course.</description>
+<dc:subject>2005</dc:subject>
+<dc:creator>Lori</dc:creator>
+<dc:date>2005-10-31T18:38:11-05:00</dc:date>
+</item>
+<item rdf:about="http://www.avocado8.com/halloween/archives/2005/#001736">
+<title>Lost Cause</title>
+<link>http://www.avocado8.com/halloween/archives/2005/#001736</link>
+<description>Sadly, I think this is a losing battle. The combination of small, hungry child and giant mobs of trick or treaters is conspiring to keep me from blogging all the different costumes that are coming by. I&apos;m just going to do the highlights from now on.</description>
+<dc:subject>2005</dc:subject>
+<dc:creator>Lori</dc:creator>
+<dc:date>2005-10-31T18:56:31-05:00</dc:date>
+</item>
+<item rdf:about="http://www.avocado8.com/halloween/archives/2005/#001737">
+<title>Mime and... Business Woman?</title>
+<link>http://www.avocado8.com/halloween/archives/2005/#001737</link>
+<description>The mime who climbed the steps was pretty obviously a mime, but I had to ask her companion what she was. The men&apos;s suit jacket and tie would seem to indicate a businessman of some sort, but I wasn&apos;t sure what kind. &quot;She&apos;s a mime,&quot; she said, unnecessarily, &quot;and I&apos;m a businesswoman.&quot; I thought, but didn&apos;t say, &quot;oh, is that what businesswomen are wearing these days?&quot;</description>
+<dc:subject>2005</dc:subject>
+<dc:creator>Lori</dc:creator>
+<dc:date>2005-10-31T19:00:29-05:00</dc:date>
+</item>
+
+
+</rdf:RDF>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?> 
+<rsd version="1.0" xmlns="http://archipelago.phrasewise.com/rsd">
+<service>
+<engineName>Movable Type 3.34</engineName> 
+<engineLink>http://www.movabletype.org/</engineLink>
+<homePageLink>http://www.avocado8.com/halloween/</homePageLink>
+<apis>
+<api name="MetaWeblog" preferred="true" apiLink="http://www.avocado8.com/mt/mt-xmlrpc.cgi" blogID="10" />
+<api name="Blogger" preferred="false" apiLink="http://www.avocado8.com/mt/mt-xmlrpc.cgi" blogID="10" />
+</apis>
+</service>
+</rsd>
