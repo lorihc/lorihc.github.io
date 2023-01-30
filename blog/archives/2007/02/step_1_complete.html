@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="http://www.movabletype.org/" />
+
+<title>avocado8: Step 1 Completed!</title>
+
+<link rel="stylesheet" href="/blog/archive_blogstyles.css" type="text/css" />
+<link rel="stylesheet" href="/blog/shared_blogstyles.css" type="text/css" />
+
+
+
+
+<link rel="start" href="http://www.avocado8.com/blog/" title="Home" />
+<link rel="prev" href="http://www.avocado8.com/blog/archives/2007/02/upgrade_time.html" title="Upgrade Time" />
+
+<link rel="next" href="http://www.avocado8.com/blog/archives/2007/02/newsworthy.html" title="Newsworthy" />
+
+
+<script type="text/javascript" src="/blog/media.js"></script>
+
+
+
+
+</head>
+
+<body>
+
+<div id="menu">
+<a href="http://www.avocado8.com/blog/archives/2007/02/upgrade_time.html">&laquo; Upgrade Time</a> |
+
+<a href="http://www.avocado8.com/blog/">Main</a>
+| <a href="http://www.avocado8.com/blog/archives/2007/02/newsworthy.html">Newsworthy &raquo;</a>
+
+</div>
+<div id="banner">
+<h1><a href="http://www.avocado8.com/blog/" accesskey="1">avocado<span class="innards">8</span></a></h1>
+</div>
+
+<div id="content">
+<div class="blog">
+
+
+<div class="blogbody">
+
+<h3 class="title">Step 1 Completed!</h3>
+
+<p>
+OK, step 1 in the upgrade process is finally complete: I've moved from Berkeley DB to MySQL. While doing this, I discovered a couple things:
+</p>
+<ol>
+<li>The 2000+ entries are for all blogs total, not just this one.</li>
+<li>There's a bug in MT 3.2 such that junk comments and trackbacks were not being deleted every 5 days, as I'd specified in my settings.</li>
+</ol>
+
+<p>
+Because of #2, I had trouble converting my databases, and that's how I discovered #1 (which isn't a problem at all, really). It turns out that #2 is probably the reason I've been having trouble with MT bogging down&#8212;and showing a blank page after completing any operation. There were THOUSANDS upon THOUSANDS of junk comments and trackbacks in my databases, and I had to delete practically all of them by hand, 75-125 at a time, because of the aforementioned blank page problem&#8212;a process that took all day (partly because I was doing it between work tasks). Once the junk was all cleared out, however, I was able to convert my databases successfully, and hopefully MT will be more responsive. This post is the first test of the new setup.
+</p>
+
+<p>
+Next up: Upgrading from MT 3.2 to MT 3.34. Maybe tomorrow.
+</p>
+
+<p>
+<strong>Update: </strong>Yes! It's speedier! No more blank pages! YIPPPEEEE!
+</p>
+
+<div class="posted">Posted by Lori in <a href="http://www.avocado8.com/blog/archives/technically_speaking/">technically speaking</a> at  7:47 PM  on <strong>February 14, 2007</strong></div>
+</div>
+
+
+</div>
+</div>
+
+<div id="menu" style="margin-bottom:20px;clear:both;">
+<a href="http://www.avocado8.com/blog/archives/2007/02/upgrade_time.html">&laquo; Upgrade Time</a> |
+
+<a href="http://www.avocado8.com/blog/">Main</a>
+| <a href="http://www.avocado8.com/blog/archives/2007/02/newsworthy.html">Newsworthy &raquo;</a>
+
+</div>
+</body>
+</html>

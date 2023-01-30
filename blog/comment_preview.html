@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=<$MTPublishCharset$>" />
+<meta name="generator" content="http://www.movabletype.org/" />
+
+<title><$MTBlogName encode_html="1"$>: Comment Preview</title>
+<link href="/blog/october/a8_blogstyles.css" rel="stylesheet" type="text/css" />
+
+
+<MTInclude module="Remember Me">
+</head>
+
+<body>
+
+<div id="container">
+
+<div id="banner">
+avocado<span style="color:#A5BA10">8</span><br />
+</div>
+
+<div class="content">
+
+<h2 class="comments-head">Previewing your Comment</h2>
+
+<div class="comments-body">
+<$MTCommentPreviewBody convert_breaks="0"$>
+<p class="comments-post">Posted by <$MTCommentPreviewAuthorLink spam_protect="1"$> at <$MTCommentPreviewDate$></p>
+</div>
+
+<MTIfCommentsAllowed>
+
+<MTCommentFields preview="1">
+
+</MTIfCommentsAllowed>
+
+<h2 class="comments-head">Previous Comments</h2>
+
+<MTComments>
+<div class="comments-body">
+<$MTCommentBody$>
+<p class="comments-post">Posted by <$MTCommentAuthorLink default_name="Anonymous" spam_protect="1"$> at <$MTCommentDate$></p>
+</div>
+</MTComments>
+</div>
+</div>
+
+</body>
+</html>

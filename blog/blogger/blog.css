@@ -1,0 +1,27 @@
+body {
+	font-family: Verdana, Geneva, Arial, sans-serif;
+	font-size: 0.8em;
+	margin-right: 100px;
+	margin-left: 100px;
+	padding-bottom: 200px;
+}
+
+.timeStamp {  font-size: 0.7em}
+
+a {  text-decoration: none}
+
+.avocadoShell {  color: #316531; font-family: "Eurostile Bold", "Arial Black", Verdana, Geneva, sans-serif}
+
+.avocadoFlesh {  font-family: "Eurostile Bold", "Arial Black", Verdana, Geneva, sans-serif; font-size: 3em; color: #CEFF63; vertical-align: sub}
+
+a:link {
+	color: #739608;
+}
+a:visited {
+	color: #3F5300;
+}
+a:hover {  color: #FF00FF}
+
+a:active {
+	color: #6633CC;
+}

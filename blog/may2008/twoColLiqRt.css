@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+body  {
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	background: #FFF;
+	margin: 0; 
+	padding: 0;
+	text-align: center; 
+	color: #000000;
+	background-image: url("/images/glasses389.gif");
+	background-repeat: no-repeat;
+}
+.twoColLiqRt #container {
+	width: 90%;
+	margin: 0 auto;
+	text-align: left;
+}
+ 
+.twoColLiqRt #sidebar1 {
+	float: right;
+	width: 250px;
+	padding: 10px 0 0 0;
+}
+.twoColLiqRt #sidebar1 p,
+{
+	margin-left: 10px; 
+	margin-right: 10px;
+}
+
+.twoColLiqRt #mainContent {
+	margin: 0 30% 0 20px; /* the left margin can be given in percentages or pixels. It creates the space down the left side of the page. */
+	padding-top: 150px;
+	padding: 0px 30px 0 0;
+}
+
+.fltrt { /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* this class can be used to float an element left in your page */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* this class should be placed on a div or break element and should be the final element before the close of a container that should fully contain a float */
+	clear:both;
+    height:0;
+    font-size: 1px;
+    line-height: 0px;
+}

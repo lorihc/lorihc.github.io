@@ -1,0 +1,201 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:spry="http://ns.adobe.com/spry">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>avocado8 ~ blog</title>
+<link href="/blog/may2008/SpryAccordion.css" rel="stylesheet" type="text/css" />
+
+<script src="/blog/archives.js" type="text/javascript"></script>
+<script type="text/javascript" src="/blog/blogSettings.js"></script>
+<script type="text/javascript" src="/blog/media.js"></script>
+<script src="/Assets/xpath.js" type="text/javascript"></script>
+<script src="/Assets/SpryData.js" type="text/javascript"></script>
+<script src="/Assets/SpryAccordion.js" type="text/javascript"></script>
+<script type="text/javascript" src="/Assets/SpryNestedXMLDataSet.js"></script>
+<script type="text/javascript" src="/Assets/SpryEffects.js"></script>
+<script type="text/javascript">
+var dsBookmarks = new Spry.Data.XMLDataSet("/blog/google_reader.xml", "opml/body/category");
+var dsSites = new Spry.Data.NestedXMLDataSet(dsBookmarks, "entry");
+</script>
+<link href="/blog/may2008/twoColLiqRt.css" rel="stylesheet" type="text/css" />
+<!--[if IE]>
+<style type="text/css"> 
+/* place css fixes for all versions of IE in this conditional comment */
+.twoColLiqRt #sidebar1 { padding-top: 30px; }
+.twoColLiqRt #mainContent { zoom: 1; padding-top: 15px; }
+/* the above proprietary zoom property gives IE the hasLayout it needs to avoid several bugs */
+</style>
+<![endif]-->
+<link href="/blog/may2008/a8_blogstyles.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body class="twoColLiqRt">
+
+<div id="container">
+	<h1 class="masthead">avocado<span class="innards">8</span></a></h1>
+	  <div id="sidebar1">
+<div class="side">
+<img alt="self-portrait sans smile" src="/blog/images/bw_selfportrait_250.jpg" width="250" height="375" galleryimg="no" style="margin-top:5px" class="noborder"/>
+</div>
+
+<div class="syndicate"> <strong style="color:black">All entries and photos &copy; Lori Hylan-Cho</strong><br />
+<a href="index.rdf">Syndicate this site (XML)</a> </div>
+<h3>
+Also By <a href="/me.html">Me</a>
+</h3>
+<div class="side">
+<script language="JavaScript">
+document.write(alsoByMe);
+</script>
+</div>
+
+<h3>
+MORE Recent Entries
+</h3>
+<div class="side"> 
+<MTEntries lastn="8">
+<a href="<$MTEntryPermalink$>"><$MTEntryTitle$></a><br />
+</MTEntries>
+</div>
+
+<table id="flickr_badge_uber_wrapper">
+<tr><script type="text/javascript" src="http://www.flickr.com/badge_code_v2.gne?count=3&display=latest&size=s&layout=h&source=user&user=51822599%40N00"></script>
+</tr>
+</table>
+
+<h3>
+Archives
+</h3>
+<div class="side">
+<div id="archiveAcc" class="tree" tabindex="0">
+<script type="text/javascript">
+document.write(getArchiveHTML());
+</script>
+</div>
+</div>
+
+<h3>
+Search for an Entry
+</h3>
+<div class="side">
+<form method="get" action="http://www.google.com/search" target="_top">
+<p>Use Google to find an old post: <br />
+<input type="hidden" name="domains" value="www.avocado8.com"/>
+<input type="text" name="q" style="width:165px;margin-top:9px;" maxlength="255" value=""/>
+<input type="hidden" name="sitesearch" value="http://www.avocado8.com/blog/"/>
+<input type="submit" name="sa" value="Search"/>
+<input type="hidden" name="client" value="pub-5466696375842589"/>
+<input type="hidden" name="forid" value="1"/>
+<input type="hidden" name="ie" value="ISO-8859-1"/>
+<input type="hidden" name="oe" value="ISO-8859-1"/>
+<input type="hidden" name="cof" value="GALT:#008000;GL:1;DIV:#336699;VLC:663399;AH:center;BGC:FFFFFF;LBGC:336699;ALC:0000FF;LC:0000FF;T:000000;GFNT:0000FF;GIMP:0000FF;FORID:1;"/>
+<input type="hidden" name="hl" value="en"/>
+</p>
+</form>
+</div>
+<h3>
+Bookmarks</h3>
+<div class="side SpryHiddenRegion" spry:region="dsBookmarks dsSites">
+<div id="Accordion1" class="Accordion" tabindex="0">
+<div class="AccordionPanel" spry:repeat="dsBookmarks">
+<div class="AccordionPanelTab">
+{@title}
+</div>
+<div class="AccordionPanelContent">
+<ul spry:repeatchildren="dsSites">
+<li><a href="{dsSites::@htmlUrl}">{dsSites::@title}</a></li>
+</ul>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+<!--
+var Accordion1 = new Spry.Widget.Accordion("Accordion1", { useFixedPanelHeights: false, transition: Spry.circleTransition });
+//-->
+</script>
+</div>
+
+<h3>
+Additional Reading</h3>
+<div class="side">
+<script language="JavaScript">
+document.write(booklist);
+</script>
+</div>
+
+<h3>
+In the Background
+</h3>
+<div class="side">
+<script language="JavaScript">
+document.write(backgroundNoise);
+</script>
+</div>
+
+<h3>
+Overindulgences</h3>
+<div class="side">
+<script language="JavaScript">
+document.write(overindulgences);
+</script>
+<br />
+</div>
+<MTBlogIfCCLicense>
+<div class="syndicate">
+<a href="<$MTBlogCCLicenseURL$>"><img alt="Creative Commons License" border="0" src="<$MTBlogCCLicenseImage$>" /></a>
+</div>
+</MTBlogIfCCLicense>
+
+<div class="powered">
+Powered by<br /><a href="http://www.movabletype.org">Movable Type <$MTVersion$></a><br />    
+</div>
+
+<div class="syndicate">
+<a href="http://www.cafepress.com/avocado8/" target="cp_win"><img src="/blog/images/cafepress/ctrl_t_large.jpg" alt="Mommy may have all the other keys, but I've got Ctrl infant/toddler T" width="240" height="240" /></a><br />
+Buy your <br />
+<span style="font-size:larger;color:#222;">Mommy may have <br />
+all the other keys, <br />
+but I've got Ctrl</span><br />
+infant/toddler t-shirt<br />
+plus other fine avocado8 swag at <strong><a href="http://www.cafepress.com/avocado8/" target="cp_win"><br />
+the avocado8 store on Cafe Press</a> <br />
+now!
+</strong><br />
+<table id="a8_swag">
+<tr>
+<td class="flickr_badge_image"><a href="http://www.cafepress.com/avocado8.32230526" target="a8_win"><img src="/blog/images/cafepress/bib_thumb.jpg" alt="blog fodder bib" width="75" height="75" border="0" /></a></td>
+<td class="flickr_badge_image"><a href="http://www.cafepress.com/avocado8.11657700" target="a8_win"><img src="/blog/images/cafepress/touch_belly_thumb.jpg" alt="touch the belly, lose an arm baby doll T" width="75" height="75" border="0" /></a></td>
+<td class="flickr_badge_image"><a href="http://www.cafepress.com/avocado8.2337270" target="a8_win"><img src="/blog/images/cafepress/mug_thumb.jpg" alt="avocado8 mug" width="75" height="75" border="0" /></a></td>
+</tr>
+</table>
+</div>  <!-- end #sidebar1 -->
+</div>
+  <div id="mainContent">
+<MTEntries lastn="3">
+<div class="blogbody">
+		<$MTEntryTrackbackData$>
+    	<h2 class="title" id="<$MTEntryID pad="1"$>"><$MTEntryTitle$></h2>
+    	<$MTEntryBody$>
+        <$MTEntryMore$>
+	
+		<div class="posted">
+		Posted by <$MTEntryAuthor$> in <MTEntryCategories glue=" and "><a href="../&lt;$MTCategoryArchiveLink$&gt;"><$MTCategoryLabel$></a></MTEntryCategories> at <$MTEntryDate format="%X"$> on <strong><$MTEntryDate format="%x"$></strong>
+	<MTEntryIfAllowComments> | 
+	<a href="../&lt;$MTEntryPermalink$&gt;#comments">Comments (<$MTEntryCommentCount$>)</a>	</MTEntryIfAllowComments>
+	<MTEntryIfAllowPings>
+| <a href="../&lt;$MTEntryPermalink$&gt;#trackbacks">TrackBack (<$MTEntryTrackbackCount$>)</a>	</MTEntryIfAllowPings>
+	| <a href="../&lt;$MTEntryPermalink$&gt;">Permalink</a>	
+		</div>
+	</div>
+	</MTEntries>
+  <!-- end #mainContent -->
+  </div>
+	<!-- This clearing element should immediately follow the #mainContent div in order to force the #container div to contain all child floats --><br class="clearfloat" />
+<!-- end #container --></div>
+<script type="text/javascript">
+<!--
+var archiveAcc = new Spry.Widget.Accordion("archiveAcc", { useFixedPanelHeights: false, transition: Spry.circleTransition, hoverClass:"treePanelTabHover",openClass:"treePanelOpen", focusedClass:"treeFocused", closedClass:"treePanelClosed" });
+//-->
+</script>
+</body>
+</html>

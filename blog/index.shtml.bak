@@ -1,0 +1,455 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:spry="http://ns.adobe.com/spry">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="http://www.movabletype.org/" />
+
+<title>avocado8</title>
+<link href="/Assets/SpryAccordion.css" rel="stylesheet" type="text/css" />
+<link href="/blog/october/a8_blogstyles.css" rel="stylesheet" type="text/css" />
+<link rel="alternate" type="application/atom+xml" title="Atom" href="http://www.avocado8.com/blog/atom.xml" />
+<link rel="alternate" type="application/rss+xml" title="RSS 1.0" href="http://www.avocado8.com/blog/index.rdf" />
+<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://www.avocado8.com/blog/index.xml" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.avocado8.com/blog/rsd.xml" />
+
+<script src="/blog/archives.js" type="text/javascript"></script>
+<script type="text/javascript" src="/blog/blogSettings.js"></script>
+<script type="text/javascript" src="/blog/media.js"></script>
+<script src="/Assets/xpath.js" type="text/javascript"></script>
+<script src="/Assets/SpryData.js" type="text/javascript"></script>
+<script src="/Assets/SpryAccordion.js" type="text/javascript"></script>
+<script type="text/javascript" src="/Assets/SpryNestedXMLDataSet.js"></script>
+<script type="text/javascript" src="/Assets/SpryEffects.js"></script>
+
+<script type="text/javascript">
+function goToCat(theList){
+	var si = theList.selectedIndex;
+	if (si > 0){
+		window.location = theList.options[si].value;
+	}
+}
+var dsBookmarks = new Spry.Data.XMLDataSet("/blog/google_reader.xml", "opml/body/category");
+var dsSites = new Spry.Data.NestedXMLDataSet(dsBookmarks, "entry");
+
+</script>
+
+
+</head>
+
+<body>
+<div id="catForm">
+<form>
+<select id="catList" name="catList" onChange="goToCat(this)">
+<option value="">What this blog is about</option>
+<option value="http://www.avocado8.com/blog/archives/around_the_house/">around the house</option>
+<option value="http://www.avocado8.com/blog/archives/austens_birth_story/">austen's birth story</option>
+<option value="http://www.avocado8.com/blog/archives/bathroom_reviews/">bathroom reviews</option>
+<option value="http://www.avocado8.com/blog/archives/best_buys/">best buys</option>
+<option value="http://www.avocado8.com/blog/archives/bloggity_goodness/">bloggity goodness</option>
+<option value="http://www.avocado8.com/blog/archives/blogher06/">blogher06</option>
+<option value="http://www.avocado8.com/blog/archives/blogher08/">blogher08</option>
+<option value="http://www.avocado8.com/blog/archives/books/">books</option>
+<option value="http://www.avocado8.com/blog/archives/civics/">civics</option>
+<option value="http://www.avocado8.com/blog/archives/cool_stuff/">cool stuff</option>
+<option value="http://www.avocado8.com/blog/archives/detroit_road_trip_2012/">detroit road trip 2012</option>
+<option value="http://www.avocado8.com/blog/archives/education/">education</option>
+<option value="http://www.avocado8.com/blog/archives/environmental_issues/">environmental issues</option>
+<option value="http://www.avocado8.com/blog/archives/failed_experiments/">failed experiments</option>
+<option value="http://www.avocado8.com/blog/archives/fashion_statements/">fashion statements</option>
+<option value="http://www.avocado8.com/blog/archives/food/">food</option>
+<option value="http://www.avocado8.com/blog/archives/unemployment/">funemployment</option>
+<option value="http://www.avocado8.com/blog/archives/gardening/">gardening</option>
+<option value="http://www.avocado8.com/blog/archives/golf/">golf</option>
+<option value="http://www.avocado8.com/blog/archives/master_bath_remodel/">master bath remodel</option>
+<option value="http://www.avocado8.com/blog/archives/me_me_me/">me, me, me</option>
+<option value="http://www.avocado8.com/blog/archives/miscommuniques/">miscommuniques</option>
+<option value="http://www.avocado8.com/blog/archives/movies/">movies</option>
+<option value="http://www.avocado8.com/blog/archives/music/">music</option>
+<option value="http://www.avocado8.com/blog/archives/newsmedia/">news/media</option>
+<option value="http://www.avocado8.com/blog/archives/our_cat/">our cat</option>
+<option value="http://www.avocado8.com/blog/archives/parenthood/">parenthood</option>
+<option value="http://www.avocado8.com/blog/archives/philadelphia/">philadelphia</option>
+<option value="http://www.avocado8.com/blog/archives/photography/">photography</option>
+<option value="http://www.avocado8.com/blog/archives/politics/">politics</option>
+<option value="http://www.avocado8.com/blog/archives/pregnancy/">pregnancy</option>
+<option value="http://www.avocado8.com/blog/archives/public_policy/">public policy</option>
+<option value="http://www.avocado8.com/blog/archives/random/">random</option>
+<option value="http://www.avocado8.com/blog/archives/religion/">religion</option>
+<option value="http://www.avocado8.com/blog/archives/san_francisco/">san francisco</option>
+<option value="http://www.avocado8.com/blog/archives/schoolmontessori/">school</option>
+<option value="http://www.avocado8.com/blog/archives/scrapbook/">scrapbook</option>
+<option value="http://www.avocado8.com/blog/archives/spam/">spam</option>
+<option value="http://www.avocado8.com/blog/archives/sports/">sports</option>
+<option value="http://www.avocado8.com/blog/archives/technically_speaking/">technically speaking</option>
+<option value="http://www.avocado8.com/blog/archives/television/">television</option>
+<option value="http://www.avocado8.com/blog/archives/the_crosscountry_move/">the cross-country move</option>
+<option value="http://www.avocado8.com/blog/archives/the_rm_r_debacle/">the rm -r debacle</option>
+<option value="http://www.avocado8.com/blog/archives/travel/">travel</option>
+<option value="http://www.avocado8.com/blog/archives/womens_health/">women's health</option>
+<option value="http://www.avocado8.com/blog/archives/work/">work</option>
+
+</select>
+</form>
+</div>
+<div id="banner">
+  <h1><a href="http://www.avocado8.com/blog/" accesskey="1">avocado<span class="innards">8</span></a></h1>
+</div>
+<div id="content">
+
+<div class="blog">
+
+
+
+	<div class="blogbody">
+	
+	<a name="002549"></a>
+	<h3 class="title">Drummer Who Wants to Get Better Wanted</h3>
+	
+	<p>
+I've now learned all my songs for the School of Rock Adult program, and I'm now working on improving my playing while singing and on adding a little complexity to the bass lines when I'm not singing. Of course, just when I'm getting up to speed—and after Craig booked a show for us at Voltage on November 21—we lost Andy, one of our guitarists, to Miami. At least he's planning to come back for the show. 
+</p>
+
+	
+		
+	
+	
+	</div>
+
+</div>
+
+</div>
+<div id="otherEntries">
+<div class="blog">
+
+
+
+	<div class="blogbody">
+	
+	<p>
+Nate, our drummer, is not coming back at all. He was on what was to be a month-long hiatus, but apparently it became permanent. Thus the Philadelphia School of Rock Adult Program is now rather desperately in need of a drummer. We are not like other bands, however; we are in it to learn our instruments, not to make money or records. The drummer we are looking for might have a kit in his parents' basement from that time he tried to form a band in high school, or maybe played percussion in middle school band while dreaming of being Gina Schock from the Go Go's. In other words, we want someone 19 or older who wants to learn to drum or improve her existing skills by taking a weekly lesson and spending another two hours a week playing with us.
+</p>
+
+<p>
+I can vouch for the joy that this program brings and consider it money very well spent. If you're interested, contact me via the comments or Twitter (@wwlorihc), or call Craig Waxman at the School of Rock directly: 267.639.4007.
+</p>
+	
+<div class="posted">Posted by Lori in  at  3:25 PM  on <strong>October  5, 2013</strong><br />
+	<a href="http://www.avocado8.com/blog/archives/2013/10/drummer_who_wants_to_get_better.html#comments">Comments (1)</a>	
+	
+	| <a href="http://www.avocado8.com/blog/archives/2013/10/drummer_who_wants_to_get_better.html">Permalink</a>	
+	</div>
+
+	</div>
+
+
+
+
+
+<div class="blogbody">
+	
+	<a name="002546"></a>
+	<h3 class="title">Bass Badass</h3>
+	
+	<p>
+Played so much bass during last night's adult program practice that by the last song my left hand and arm cramped and refused to grip the strings. In the grand scheme of things it wasn't *that* much continuous playing time&#8212;only a little over 2 hours&#8212;but that's more than I've ever done before. (Usually I practice for 30-60 minutes a night, my lessons are 45 minutes long, and at the last adult session I sang half the songs because I didn't know the bass lines to them.)
+</p>
+	<p>
+On a related note, I've noticed that there's a disconnect between the songs I like to listen to and noodle out at home, and the ones I enjoy playing most with the other dudes in the group. I have a pretty wide range of musical interests, but I don't have much in the Blues genre in my library. Blues, however, turns out to be really fun to play. The bass line can really hold up a song and provide a platform for some cool guitar solos&#8212;and it's usually chill enough that I can keep up fairly easily.
+</p>
+
+<p>
+In other music news, the Beaner got into Punk 'n Funk for this season, so he will start practices for that this Saturday. Oh, and as we were leaving the adult session last night, Yanni said, "we're going to have a show soon. Don't anyone quit the band before the show!" Which... eep!... is both exciting and terrifying. Hopefully we will do all Blues tunes! And we should probably come up with a name for ourselves, so I don't have to keep referring to us as the Adult Program. Maybe we can use the title of the note that was sent home with the Beaner from camp last night and be the <strong>HEY GROWNUPS!</strong>
+</p>
+	
+	<div class="posted">
+	Posted by Lori in <a href="http://www.avocado8.com/blog/archives/me_me_me/">me, me, me</a> and <a href="http://www.avocado8.com/blog/archives/music/">music</a> at 12:25 PM on <strong>August 23, 2013</strong>
+	
+	
+	| <a href="http://www.avocado8.com/blog/archives/2013/08/bass_badass.html">Permalink</a>	
+</div>
+</div>
+
+
+
+<div class="blogbody">
+	
+	<a name="002545"></a>
+	<h3 class="title">9 Things</h3>
+	
+	<p>
+I had a to-do list with 12 items on it yesterday, and I kind of can't believe the can of whoop-ass I opened on that thing. I:
+</p>
+
+
+	<ul>
+<li>Cleaned Fluffy's cage (with the Beaner). Did I mention we have a pet mouse now? OF COURSE NOT, because before yesterday, I hadn't blogged since January.</li>
+<li>Made the Beaner's lunch for camp.</li>
+<li>Made peach chutney with the peaches the Beaner picked at Grandparent Camp (aka the week he spent at my parents' house).</li>
+<li>Signed the Beaner up for the winter SOR show.</li>
+<li>Filled out forms for the after school program.</i>
+<li>Did four loads of laundry.</li>
+<li>Made the guest bed (my sister is coming to visit on Wednesday!).</li>
+<li>Removed references to uniqueIdentifier (UDID) and replaced them with a combination of CFUUIDCreateString and the keychain in the two apps we plan to submit this week, and created release candidate builds of them.</li>
+<li>WROTE A BLOG POST OMG.</li>
+</ul>
+
+<p>
+I did not get to the mid-year reviews, the bike ride (it rained), or the bass practice (which I am going to do RIGHT NOW, I swear!), but! I blogged! And that's the important thing.
+</p>
+
+<p>
+Oh, p.s.: I could have called this post 10 Things, because even though it was not on my list, I also played hockey and had an assist. Woot!
+</p>
+	
+	<div class="posted">
+	Posted by Lori in <a href="http://www.avocado8.com/blog/archives/me_me_me/">me, me, me</a> at 10:20 PM on <strong>August 19, 2013</strong>
+	
+	
+	| <a href="http://www.avocado8.com/blog/archives/2013/08/9_things.html">Permalink</a>	
+</div>
+</div>
+
+
+
+<div class="blogbody">
+	
+	<a name="002544"></a>
+	<h3 class="title">Rockin' Out!</h3>
+	
+	<p>
+Last summer (I can't believe it's been a year!), I said to the Beaner, "it's time for music lessons. Would you like to do piano, guitar, or vocals?" He replied, "I want to play the drums." This I found interesting, as I, too, had wanted to play the drums as a child. Well, actually I wanted to play the flute when we were offered the opportunity to choose band instruments in fourth grade, but back in the olden days, when asthma wasn't well understood, I was told that asthmatics couldn't play the flute. "Then I want to play the drums," I said. For me this meant getting a drum pad and sticks and a drum teacher. For the Beaner, it meant calling the <a href="https://philadelphia.schoolofrock.com/" target="a8_win">School of Rock</a>.
+</p>
+
+	<p>
+I had noticed the sign for the (original Paul Green) School of Rock when I first moved to Philadelphia and read about it in an article online, and I'd seen posters on Chestnut Street for SOR shows. (And of course, since then, I've seen the movie.) In the intervening years, the School of Rock became a franchise, and there are now locations around the country&#8212;including several in this area. I picked the one in Philadelphia proper because that's where we live, and we arranged to visit the place and see if there was a program that was right for the Beaner.
+</p>
+
+<p>
+The main School of Rock gig is the Performance Program, in which students have a private lesson in their instruments weekly, plus a 3-hour weekly rehearsal for a particular show (past shows have included themes like The Ramones, 90s Rock, Freedom Rock, Led Zeppelin, and Arena Rock) over 8-10 weeks. Each kid is assigned a few songs, and at rehearsals the participants in each song practice together as a band. At the end of the season, the kids play two shows: one on a Friday night at the School of Rock, and one the next afternoon at a real rock venue such as Johnny Brenda's or The Legendary Dobbs.
+</p>
+
+<p>
+For younger kids, the School of Rock also has a program called Rock 101. This is what we signed the Beaner up for, since he was 7 at the time and had no experience playing the drums yet. It's similar to the Performance Program except that there's no show to aim for&#8212;just weekly 90-minute jam sessions with fellow 101 Rockers. The shorter rehearsal time was a better fit for his attention span as well as his experience. There was a drum lesson spot open just before 101 on Saturdays, so we took that.
+</p>
+
+<p>
+I should probably mention here that the philosophy of the School of Rock is to get kids playing real rock music as soon as possible, and to teach music theory as they go. Putting learning actual songs first gives the kids the incentive they need to practice and to improve their technique. Thus it was that the Beaner was learning basic rock beats in his lessons while also banging out Blitzkrieg Bop and Hit Me With Your Best Shot in Rock 101.
+</p>
+
+<p style="text-align:center">
+<a href="http://www.flickr.com/photos/avocado8/8084368882/" title="drum practice (with improvised snare, hi-hat, and kick bass) by avocadoh, on Flickr"><img src="http://farm9.staticflickr.com/8469/8084368882_456da4e785.jpg" width="375" height="500" alt="drum practice (with improvised snare, hi-hat, and kick bass)"></a>
+<a href="http://www.flickr.com/photos/avocado8/8296659581/" title="hamming it up during hit me with your best shot by avocadoh, on Flickr"><img src="http://farm9.staticflickr.com/8077/8296659581_641ac74219.jpg" width="500" height="500" alt="hamming it up during hit me with your best shot"></a> 
+</p>
+
+<p>
+We wanted to make sure the Beaner would stick with it before we invested in a drum set, so we started him out with a set of sticks, a table, a chair, and a shoebox. Al and I both worked with him for the first few weeks of home practice to help him with timing, but after that, his skill eclipsed ours. That's when we got him a drum set&#8212;a very basic kit that we will eventually upgrade when this one wears out (and it will if he keeps playing :-).
+</p>
+
+<p style="text-align:center">
+<a href="http://www.flickr.com/photos/avocado8/8084372673/" title="the kid is pleased with his new drums by avocadoh, on Flickr"><img src="http://farm9.staticflickr.com/8336/8084372673_8d9845cc94.jpg" width="333" height="500" alt="the kid is pleased with his new drums"></a>
+</p>
+
+<p>
+I'd started looking forward to spending a couple hours at the School of Rock every Saturday; I enjoyed listening to the kids play while getting caught up on random work tasks like fixing or triaging bugs and updating Trello boards. And sometimes I sang along from the kitchen area to whatever was going on back in the Rock 101 room. :-) When they started learning Seven Nation Army, though, I was actually inspired to get out <a href="http://avocado8.com/newthings/basslessons/about_bass.html" target="a8_win">the awesome bass guitar I'd bought during a bout of depression back in the winter of 95-96</a>. I guessed that the bass line would be relatively easy to figure out, and perhaps <a href="http://vimeo.com/56876140" target="a8_win">the Beaner and I could practice a bit together</a>. (Video password is the name of this site.)
+</p>
+
+<p>
+This past June the Beaner graduated from Rock 101 and was invited to join the Performance Program. (Rock 101 had become so popular that the SOR actually started a Rock 102, I think on Tuesday nights, but the Beaner preferred to stick with 101 on Saturdays until they forced him out. Not really surprising; he likes to stick with what he knows and avoids change.) He requested The Monkees as his first choice show and got it. Summer shows are a little ragged because so many kids go on family vacations and miss rehearsals, but the Beaner had a blast&#8212;and my Saturday work sessions at the SOR went from 2 hours to 4. I helped him practice at home, mostly by singing and playing the tambourine rather than playing bass.
+</p>
+
+<p>
+As usual, the Friday night show was held at the School of Rock. Here's "For Pete's Sake" from that show, with the Beaner on drums (apologies for the horrible sound quality; Al was standing right near the monitor when he recorded this):
+</p>
+
+<iframe style="text-align:center" width="560" height="315" src="//www.youtube.com/embed/O7yHpPIp-ic?rel=0" frameborder="0" allowfullscreen></iframe>
+
+<p>
+On Saturday my parents came up to see the show at The Legendary Dobbs on South Street. Here's "Look Out, Here Comes Tomorrow" from that show, again with the Beaner on drums:
+</p>
+
+<iframe width="420" height="315" src="//www.youtube.com/embed/zCIcqlHwLs0?rel=0" frameborder="0" allowfullscreen></iframe>
+
+
+<p>
+Right around the time the kids were doing their final Monkees rehearsal, Craig (Waxman, the GM at the Philly School of Rock) announced that an adult program would be starting up on Thursday nights. It would work similarly to Rock 101: you'd get a weekly lesson and a weekly 2-hour practice session with your fellow adult musicians. The goal (which I kind of ignored, since my goal was merely to finally learn to play my vintage P-bass) would be to play 3 or 4 shows a year in local clubs. I waffled for a couple weeks and then finally took the plunge. I've had two lessons and one practice session so far, and I'm so looking forward to the lesson and session this week. (Though I did kind of forget that I'd have to work daily practice into my busy schedule, which means something will have to give&#8212;and that something will be running... which I realize is yet another thing I haven't written about here. Summary: I went from not being able to run the bases at softball in April 2012 to running my first 5K race at a 9:47/mi pace in April 2013.)
+</p>
+
+<p>
+After a brief break between show seasons, signups for the winter season shows took place today. The Beaner's first choice was Punk 'n Funk (he's a little unsure what to expect, given that there's no single band to learn about, but he's hoping that there'll be at least one Ramones tune in the lineup), which rehearses on Saturdays again. His second choice was "nothing," but I put in for Women Who Rock, which was not-so-secretly MY first choice. ;-) The Beaner thinks that's just for girls, tho, so he's not really interested. </p>
+
+<p>
+Al will be splitting the 4-hour Saturday stints at the SOR with me this time, as the UWHL hockey season starts in early October, and we will have at least half our games on Saturdays. With bass lessons on Wednesday nights and Adult Program sessions on Thursday nights, though, I'm still going to be spending a <em>whole lotta time </em>at the Philly SOR. If you have kid who's interested in learning an instrument or singing with a band&#8212;or you want to get out that old Fender, or put childhood piano lessons to use on keyboards&#8212;come on down! I'll share the table in the kitchen area&#8212;or the microphone&#8212;with you.
+</p>
+
+<p style="text-align:center">
+<a href="http://www.flickr.com/photos/avocado8/9430611397/" title="Untitled by avocadoh, on Flickr"><img src="http://farm6.staticflickr.com/5477/9430611397_e467e53dc1.jpg" width="333" height="500" alt="Untitled"></a>
+</p>
+
+	
+	<div class="posted">
+	Posted by Lori in <a href="http://www.avocado8.com/blog/archives/music/">music</a> and <a href="http://www.avocado8.com/blog/archives/parenthood/">parenthood</a> and <a href="http://www.avocado8.com/blog/archives/philadelphia/">philadelphia</a> at  1:09 AM on <strong>August 19, 2013</strong>
+	<br />
+	<a href="http://www.avocado8.com/blog/archives/2013/08/rockin_out.html#comments">Comments (3)</a>	
+	
+	| <a href="http://www.avocado8.com/blog/archives/2013/08/rockin_out.html">Permalink</a>	
+</div>
+</div>
+
+<p class="sep" ><!-- --></p>
+<p class="tagline">
+I'm an introvert. You are a wonderful person and I like you. But now please shush.<br />
+<a href="http://www.theatlantic.com/doc/200303/rauch">Jonathan Rauch</a>
+</p>
+</div>
+</div>
+
+<div id="links">
+
+<table id="flickr_badge_uber_wrapper">
+<tr><script type="text/javascript" src="http://www.flickr.com/badge_code_v2.gne?count=3&display=latest&size=s&layout=h&source=user&user=51822599%40N00"></script>
+</tr>
+</table>
+<div class="syndicate"> <strong style="color:black">All entries and photos &copy; Lori Hylan-Cho</strong><br />
+<a href="index.rdf">Syndicate this site (XML)</a> </div>
+<div class="sidetitle">
+Also By <a href="/me.html">Me</a>
+</div>
+<div class="side">
+<script type="text/javascript">
+document.write(alsoByMe);
+</script>
+</div>
+
+<div class="sidetitle">
+MORE Recent Entries
+</div>
+<div class="side"> 
+<a href="http://www.avocado8.com/blog/archives/2013/10/drummer_who_wants_to_get_better.html">Drummer Who Wants to Get Better Wanted</a><br />
+<a href="http://www.avocado8.com/blog/archives/2013/08/bass_badass.html">Bass Badass</a><br />
+<a href="http://www.avocado8.com/blog/archives/2013/08/9_things.html">9 Things</a><br />
+<a href="http://www.avocado8.com/blog/archives/2013/08/rockin_out.html">Rockin' Out!</a><br />
+<a href="http://www.avocado8.com/blog/archives/2013/01/yummy_gluten_free_pizza_1.html">Yummy Gluten Free Pizza</a><br />
+<a href="http://www.avocado8.com/blog/archives/2013/01/stretch_goal.html">Stretch Goal</a><br />
+<a href="http://www.avocado8.com/blog/archives/2012/05/tropical_banana_bread.html">Tropical Banana Bread</a><br />
+<a href="http://www.avocado8.com/blog/archives/2012/04/detroit_road_trip_an_introductio_1.html">Detroit Road Trip: An Introduction</a><br />
+
+</div>
+
+<div class="sidetitle">
+Archives
+</div>
+<div class="side">
+<div id="archiveAcc" class="tree" tabindex="0">
+<script type="text/javascript">
+document.write(getArchiveHTML());
+</script>
+</div>
+</div>
+
+<div class="sidetitle">
+Search for an Entry
+</div>
+<div class="side">
+<form method="get" action="http://www.google.com/search" target="_top">
+<p>Use Google to find an old post: <br />
+<input type="hidden" name="domains" value="www.avocado8.com"/>
+<input type="text" name="q" style="width:165px;margin-top:9px;" maxlength="255" value=""/>
+<input type="hidden" name="sitesearch" value="http://www.avocado8.com/blog/"/>
+<input type="submit" name="sa" value="Search"/>
+<input type="hidden" name="client" value="pub-5466696375842589"/>
+<input type="hidden" name="forid" value="1"/>
+<input type="hidden" name="ie" value="ISO-8859-1"/>
+<input type="hidden" name="oe" value="ISO-8859-1"/>
+<input type="hidden" name="cof" value="GALT:#008000;GL:1;DIV:#336699;VLC:663399;AH:center;BGC:FFFFFF;LBGC:336699;ALC:0000FF;LC:0000FF;T:000000;GFNT:0000FF;GIMP:0000FF;FORID:1;"/>
+<input type="hidden" name="hl" value="en"/>
+</p>
+</form>
+</div>
+
+<div class="sidetitle">
+Bookmarks</div>
+<div class="side SpryHiddenRegion" spry:region="dsBookmarks dsSites">
+<div id="Accordion1" class="Accordion" tabindex="0">
+<div class="AccordionPanel" spry:repeat="dsBookmarks">
+<div class="AccordionPanelTab">
+{@title}
+</div>
+<div class="AccordionPanelContent">
+<ul spry:repeatchildren="dsSites">
+<li><a href="{dsSites::@htmlUrl}">{dsSites::@title}</a></li>
+</ul>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+<!--
+var Accordion1 = new Spry.Widget.Accordion("Accordion1", { useFixedPanelHeights: false, transition: Spry.circleTransition });
+//-->
+</script>
+</div>
+
+<div class="sidetitle">
+Additional Reading</div>
+<div class="side">
+<script type="text/javascript">
+document.write(booklist);
+</script>
+</div>
+
+<div class="sidetitle">
+In the Background
+</div>
+<div class="side">
+<script type="text/javascript">
+document.write(backgroundNoise);
+</script>
+</div>
+
+<div class="sidetitle">
+Overindulgences</div>
+<div class="side">
+<script type="text/javascript">
+document.write(overindulgences);
+</script>
+<br />
+</div>
+<div class="side">
+<img alt="me_beaner_skates.jpg" src="http://www.avocado8.com/blog/images/me_beaner_skates.jpg" galleryimg="no" width="250" height="364"  style="margin-top:5px"/><br />
+<br />
+</div>
+
+
+<div class="powered">
+Powered by<br /><a href="http://www.movabletype.org">Movable Type 3.34</a><br />    
+</div>
+
+<div class="syndicate">
+<a href="http://www.cafepress.com/avocado8/" target="cp_win"><img src="/blog/images/cafepress/ctrl_t_large.jpg" alt="Mommy may have all the other keys, but I've got Ctrl infant/toddler T" width="240" height="240" /></a><br />
+Buy your <br />
+<span style="font-size:larger;color:#222;">Mommy may have <br />
+all the other keys, <br />
+but I've got Ctrl</span><br />
+infant/toddler t-shirt<br />
+plus other fine avocado8 swag at <strong><a href="http://www.cafepress.com/avocado8/" target="cp_win"><br />
+the avocado8 store on Cafe Press</a> <br />
+now!
+</strong><br />
+<table id="a8_swag">
+<tr>
+<td class="flickr_badge_image"><a href="http://www.cafepress.com/avocado8.32230526" target="a8_win"><img src="/blog/images/cafepress/bib_thumb.jpg" alt="blog fodder bib" width="75" height="75" border="0" /></a></td>
+<td class="flickr_badge_image"><a href="http://www.cafepress.com/avocado8.11657700" target="a8_win"><img src="/blog/images/cafepress/touch_belly_thumb.jpg" alt="touch the belly, lose an arm baby doll T" width="75" height="75" border="0" /></a></td>
+<td class="flickr_badge_image"><a href="http://www.cafepress.com/avocado8.2337270" target="a8_win"><img src="/blog/images/cafepress/mug_thumb.jpg" alt="avocado8 mug" width="75" height="75" border="0" /></a></td>
+</tr>
+</table>
+
+</div>
+</div>
+<br clear="all" />
+<script type="text/javascript">
+<!--
+var archiveAcc = new Spry.Widget.Accordion("archiveAcc", { useFixedPanelHeights: false, transition: Spry.circleTransition, hoverClass:"treePanelTabHover",openClass:"treePanelOpen", focusedClass:"treeFocused", closedClass:"treePanelClosed" });
+//-->
+</script>
+</body>
+</html>

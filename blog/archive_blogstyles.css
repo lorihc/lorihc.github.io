@@ -1,0 +1,19 @@
+// Small devices (landscape phones, 576px and up)
+body {background: #FFF;}
+
+#bodybounds {width:95%;  margin: 0 auto; }
+
+#content {width:100%; }
+
+#links {width:100%; }
+
+#banner {width:100%;}
+				
+#subBanner {
+		color:#3F5300;
+		font-size:0.7em;
+		font-weight:normal;
+		background:#FFF;
+		text-transform:none;
+		font-family: "Arial Black", "Bauhaus 93", "Berlin Sans FB";
+}	

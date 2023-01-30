@@ -1,0 +1,287 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:spry="http://ns.adobe.com/spry">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=<$MTPublishCharset$>" />
+<meta name="generator" content="http://www.movabletype.org/" />
+
+<title><$MTBlogName$></title>
+<link href="/Assets/SpryAccordion.css" rel="stylesheet" type="text/css" />
+<link href="/blog/october/a8_blogstyles.css" rel="stylesheet" type="text/css" />
+<link rel="alternate" type="application/atom+xml" title="Atom" href="<$MTBlogURL$>atom.xml" />
+<link rel="alternate" type="application/rss+xml" title="RSS 1.0" href="<$MTBlogURL$>index.rdf" />
+<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="<$MTBlogURL$>index.xml" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="<$MTBlogURL$>rsd.xml" />
+
+<script src="/blog/archives.js" type="text/javascript"></script>
+<script type="text/javascript" src="/blog/blogSettings.js"></script>
+<script type="text/javascript" src="/blog/media.js"></script>
+<script src="/Assets/xpath.js" type="text/javascript"></script>
+<script src="/Assets/SpryData.js" type="text/javascript"></script>
+<script src="/Assets/SpryAccordion.js" type="text/javascript"></script>
+<script type="text/javascript" src="/Assets/SpryNestedXMLDataSet.js"></script>
+<script type="text/javascript" src="/Assets/SpryEffects.js"></script>
+
+<script type="text/javascript">
+function goToCat(theList){
+	var si = theList.selectedIndex;
+	if (si > 0){
+		window.location = theList.options[si].value;
+	}
+}
+var dsBookmarks = new Spry.Data.XMLDataSet("/blog/google_reader.xml", "opml/body/category");
+var dsSites = new Spry.Data.NestedXMLDataSet(dsBookmarks, "entry");
+
+</script>
+
+<MTBlogIfCCLicense>
+<$MTCCLicenseRDF$>
+</MTBlogIfCCLicense>
+</head>
+
+<body>
+<div id="catForm">
+<form>
+<select id="catList" name="catList" onChange="goToCat(this)">
+<option value="">What this blog is about</option>
+<MTCategories>
+<option value="<$MTCategoryArchiveLink$>"><$MTCategoryLabel$></option>
+</MTCategories>
+</select>
+</form>
+</div>
+<div id="banner">
+  <h1><a href="<$MTBlogURL$>" accesskey="1">avocado<span class="innards">8</span></a></h1>
+</div>
+<div id="content">
+
+<div class="blog">
+
+<MTEntries lastn="1">
+
+<$MTEntryTrackbackData$>
+	<div class="blogbody">
+	
+	<a name="<$MTEntryID pad="1"$>"></a>
+	<h3 class="title"><$MTEntryTitle$></h3>
+	
+	<$MTEntryBody$>
+	
+	<MTEntryIfExtended>
+	<MTElse>
+	<div class="posted">Posted by <$MTEntryAuthor$> in <MTEntryCategories glue=" and "><a href="<$MTCategoryArchiveLink$>"><$MTCategoryLabel$></a></MTEntryCategories> at <$MTEntryDate format="%X"$>  on <strong><$MTEntryDate format="%x"$></strong><MTEntryIfAllowComments><br />
+	<a href="<$MTEntryPermalink$>#comments">Comments (<$MTEntryCommentCount$>)</a>	</MTEntryIfAllowComments>
+	<MTEntryIfAllowPings>
+| <a href="<$MTEntryPermalink$>#trackbacks">TrackBack (<$MTEntryTrackbackCount$>)</a>	</MTEntryIfAllowPings>
+	| <a href="<$MTEntryPermalink$>">Permalink</a>	
+	</div>
+	</MTElse>
+	</MTEntryIfExtended>
+	
+	</div>
+</MTEntries>
+</div>
+
+</div>
+<div id="otherEntries">
+<div class="blog">
+
+<MTEntries lastn="1">
+<MTEntryIfExtended>
+
+<$MTEntryTrackbackData$>
+	<div class="blogbody">
+	
+	<$MTEntryMore$>
+	
+<div class="posted">Posted by <$MTEntryAuthor$> in <MTEntryCategories glue=" and "><a href="<$MTCategoryArchiveLink$>"><$MTCategoryLabel$></a></MTEntryCategories> at <$MTEntryDate format="%X"$>  on <strong><$MTEntryDate format="%x"$></strong><MTEntryIfAllowComments><br />
+	<a href="<$MTEntryPermalink$>#comments">Comments (<$MTEntryCommentCount$>)</a>	</MTEntryIfAllowComments>
+	<MTEntryIfAllowPings>
+| <a href="<$MTEntryPermalink$>#trackbacks">TrackBack (<$MTEntryTrackbackCount$>)</a>	</MTEntryIfAllowPings>
+	| <a href="<$MTEntryPermalink$>">Permalink</a>	
+	</div>
+
+	</div>
+</MTEntryIfExtended>
+</MTEntries>
+<MTEntries lastn="3" offset="1">
+
+
+<$MTEntryTrackbackData$>
+<div class="blogbody">
+	
+	<a name="<$MTEntryID pad="1"$>"></a>
+	<h3 class="title"><$MTEntryTitle$></h3>
+	
+	<$MTEntryBody$>
+	<$MTEntryMore$>
+	
+	<div class="posted">
+	Posted by <$MTEntryAuthor$> in <MTEntryCategories glue=" and "><a href="<$MTCategoryArchiveLink$>"><$MTCategoryLabel$></a></MTEntryCategories> at <$MTEntryDate format="%X"$> on <strong><$MTEntryDate format="%x"$></strong>
+	<MTEntryIfAllowComments><br />
+	<a href="<$MTEntryPermalink$>#comments">Comments (<$MTEntryCommentCount$>)</a>	</MTEntryIfAllowComments>
+	<MTEntryIfAllowPings>
+| <a href="<$MTEntryPermalink$>#trackbacks">TrackBack (<$MTEntryTrackbackCount$>)</a>	</MTEntryIfAllowPings>
+	| <a href="<$MTEntryPermalink$>">Permalink</a>	
+</div>
+</div>
+</MTEntries>
+<p class="sep" ><!-- --></p>
+<p class="tagline">
+I'm an introvert. You are a wonderful person and I like you. But now please shush.<br />
+<a href="http://www.theatlantic.com/doc/200303/rauch">Jonathan Rauch</a>
+</p>
+</div>
+</div>
+
+<div id="links">
+
+<table id="flickr_badge_uber_wrapper">
+<tr><script type="text/javascript" src="http://www.flickr.com/badge_code_v2.gne?count=3&display=latest&size=s&layout=h&source=user&user=51822599%40N00"></script>
+</tr>
+</table>
+<div class="syndicate"> <strong style="color:black">All entries and photos &copy; Lori Hylan-Cho</strong><br />
+<a href="index.rdf">Syndicate this site (XML)</a> </div>
+<div class="sidetitle">
+Also By <a href="/me.html">Me</a>
+</div>
+<div class="side">
+<script type="text/javascript">
+document.write(alsoByMe);
+</script>
+</div>
+
+<div class="sidetitle">
+MORE Recent Entries
+</div>
+<div class="side"> 
+<MTEntries lastn="8">
+<a href="<$MTEntryPermalink$>"><$MTEntryTitle$></a><br />
+</MTEntries>
+</div>
+
+<div class="sidetitle">
+Archives
+</div>
+<div class="side">
+<div id="archiveAcc" class="tree" tabindex="0">
+<script type="text/javascript">
+document.write(getArchiveHTML());
+</script>
+</div>
+</div>
+
+<div class="sidetitle">
+Search for an Entry
+</div>
+<div class="side">
+<form method="get" action="http://www.google.com/search" target="_top">
+<p>Use Google to find an old post: <br />
+<input type="hidden" name="domains" value="www.avocado8.com"/>
+<input type="text" name="q" style="width:165px;margin-top:9px;" maxlength="255" value=""/>
+<input type="hidden" name="sitesearch" value="http://www.avocado8.com/blog/"/>
+<input type="submit" name="sa" value="Search"/>
+<input type="hidden" name="client" value="pub-5466696375842589"/>
+<input type="hidden" name="forid" value="1"/>
+<input type="hidden" name="ie" value="ISO-8859-1"/>
+<input type="hidden" name="oe" value="ISO-8859-1"/>
+<input type="hidden" name="cof" value="GALT:#008000;GL:1;DIV:#336699;VLC:663399;AH:center;BGC:FFFFFF;LBGC:336699;ALC:0000FF;LC:0000FF;T:000000;GFNT:0000FF;GIMP:0000FF;FORID:1;"/>
+<input type="hidden" name="hl" value="en"/>
+</p>
+</form>
+</div>
+
+<!--
+<div class="sidetitle">
+Bookmarks</div>
+<div class="side SpryHiddenRegion" spry:region="dsBookmarks dsSites">
+<div id="Accordion1" class="Accordion" tabindex="0">
+<div class="AccordionPanel" spry:repeat="dsBookmarks">
+<div class="AccordionPanelTab">
+{@title}
+</div>
+<div class="AccordionPanelContent">
+<ul spry:repeatchildren="dsSites">
+<li><a href="{dsSites::@htmlUrl}">{dsSites::@title}</a></li>
+</ul>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+var Accordion1 = new Spry.Widget.Accordion("Accordion1", { useFixedPanelHeights: false, transition: Spry.circleTransition });
+</script>
+</div>
+-->
+
+<div class="sidetitle">
+Read.</div>
+<div class="side">
+<script type="text/javascript">
+document.write(booklist);
+</script>
+<br />
+<br />
+</div>
+
+<!--
+<div class="sidetitle">
+In the Background
+</div>
+<div class="side">
+<script type="text/javascript">
+document.write(backgroundNoise);
+</script>
+</div>
+
+<div class="sidetitle">
+Overindulgences</div>
+<div class="side">
+<script type="text/javascript">
+document.write(overindulgences);
+</script>
+<br />
+</div>
+-->
+<div class="side">
+<img alt="me_beaner_skates.jpg" src="http://www.avocado8.com/blog/images/me_beaner_skates.jpg" galleryimg="no" width="250" height="364"  style="margin-top:5px"/><br />
+<br />
+</div>
+<MTBlogIfCCLicense>
+<div class="syndicate">
+<a href="<$MTBlogCCLicenseURL$>"><img alt="Creative Commons License" border="0" src="<$MTBlogCCLicenseImage$>" /></a>
+</div>
+</MTBlogIfCCLicense>
+
+<div class="powered">
+Powered by<br /><a href="http://www.movabletype.org">Movable Type <$MTVersion$></a><br />    
+</div>
+
+<div class="syndicate">
+<a href="http://www.cafepress.com/avocado8/" target="cp_win"><img src="/blog/images/cafepress/ctrl_t_large.jpg" alt="Mommy may have all the other keys, but I've got Ctrl infant/toddler T" width="240" height="240" /></a><br />
+Buy your <br />
+<span style="font-size:larger;color:#222;">Mommy may have <br />
+all the other keys, <br />
+but I've got Ctrl</span><br />
+infant/toddler t-shirt<br />
+plus other fine avocado8 swag at <strong><a href="http://www.cafepress.com/avocado8/" target="cp_win"><br />
+the avocado8 store on Cafe Press</a> <br />
+now!
+</strong><br />
+<table id="a8_swag">
+<tr>
+<td class="flickr_badge_image"><a href="http://www.cafepress.com/avocado8.32230526" target="a8_win"><img src="/blog/images/cafepress/bib_thumb.jpg" alt="blog fodder bib" width="75" height="75" border="0" /></a></td>
+<td class="flickr_badge_image"><a href="http://www.cafepress.com/avocado8.11657700" target="a8_win"><img src="/blog/images/cafepress/touch_belly_thumb.jpg" alt="touch the belly, lose an arm baby doll T" width="75" height="75" border="0" /></a></td>
+<td class="flickr_badge_image"><a href="http://www.cafepress.com/avocado8.2337270" target="a8_win"><img src="/blog/images/cafepress/mug_thumb.jpg" alt="avocado8 mug" width="75" height="75" border="0" /></a></td>
+</tr>
+</table>
+
+</div>
+</div>
+<br clear="all" />
+<script type="text/javascript">
+<!--
+var archiveAcc = new Spry.Widget.Accordion("archiveAcc", { useFixedPanelHeights: false, transition: Spry.circleTransition, hoverClass:"treePanelTabHover",openClass:"treePanelOpen", focusedClass:"treeFocused", closedClass:"treePanelClosed" });
+//-->
+</script>
+</body>
+</html>

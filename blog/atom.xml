@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed version="0.3" xmlns="http://purl.org/atom/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">
+<title>avocado8</title>
+<link rel="alternate" type="text/html" href="http://www.avocado8.com/blog/" />
+<modified>2020-12-22T06:52:48Z</modified>
+<tagline>regaling the web with tales of whoa</tagline>
+<id>tag:www.avocado8.com,2020:/blog//1</id>
+<generator url="http://www.movabletype.org/" version="3.34">Movable Type</generator>
+<copyright>Copyright (c) 2020, Lori</copyright>
+<entry>
+<title>Barry Smooth</title>
+<link rel="alternate" type="text/html" href="http://www.avocado8.com/blog/archives/2020/12/barry_smooth.html" />
+<modified>2020-12-22T06:52:48Z</modified>
+<issued>2020-12-22T06:08:23Z</issued>
+<id>tag:www.avocado8.com,2020:/blog//1.2570</id>
+<created>2020-12-22T06:08:23Z</created>
+<summary type="text/plain"> Of course I have a list of things I want to write about, but rather than waiting to write about them in order, I&apos;m going to spew this one out right now: The audiobook version of Barack Obama&apos;s book The Promised Land is so good....</summary>
+<author>
+<name>Lori</name>
+
+<email>lori@avocado8.com</email>
+</author>
+<dc:subject>books</dc:subject>
+<content type="text/html" mode="escaped" xml:lang="en" xml:base="http://www.avocado8.com/blog/">
+ Of course I have a list of things I want to write about, but rather than waiting to write about them in order, I&apos;m going to spew this one out right now: The audiobook version of Barack Obama&apos;s book The Promised Land is so good....
+</content>
+</entry>
+<entry>
+<title>Books on the Bottom</title>
+<link rel="alternate" type="text/html" href="http://www.avocado8.com/blog/archives/2020/06/_a_couple_weeks_ago.html" />
+<modified>2020-12-22T07:35:03Z</modified>
+<issued>2020-06-18T03:07:30Z</issued>
+<id>tag:www.avocado8.com,2020:/blog//1.2571</id>
+<created>2020-06-18T03:07:30Z</created>
+<summary type="text/plain"> A couple weeks ago I was attempting to multi-task: I was cooking a skillet of beans and broccoli while joining a Webex meeting on my iPad to review an early draft of one of my teammates’ WWDC presentations. I’d just connected—with mute on due to the cooking—and went to check the recipe for the exact amount of water to add when two of the four brackets holding up the top shelf of this cabinet—which used to hold all the...</summary>
+<author>
+<name>Lori</name>
+
+<email>lori@avocado8.com</email>
+</author>
+<dc:subject>around the house</dc:subject>
+<content type="text/html" mode="escaped" xml:lang="en" xml:base="http://www.avocado8.com/blog/">
+ A couple weeks ago I was attempting to multi-task: I was cooking a skillet of beans and broccoli while joining a Webex meeting on my iPad to review an early draft of one of my teammates’ WWDC presentations. I’d just connected—with mute on due to the cooking—and went to check the recipe for the exact amount of water to add when two of the four brackets holding up the top shelf of this cabinet—which used to hold all the...
+</content>
+</entry>
+<entry>
+<title>Recent Adventures in Audio</title>
+<link rel="alternate" type="text/html" href="http://www.avocado8.com/blog/archives/2020/02/recent_adventures_in_audio_1.html" />
+<modified>2020-02-09T04:01:45Z</modified>
+<issued>2020-02-09T02:44:14Z</issued>
+<id>tag:www.avocado8.com,2020:/blog//1.2568</id>
+<created>2020-02-09T02:44:14Z</created>
+<summary type="text/plain"> I know the sidebar is meant to capture recent books I’ve read, but I keep thinking that I need to make this blog more mobile-friendly and ditch the sidebar entirely&amp;#8212;if I can even remember how to CSS anymore&amp;#8212;so I’m going to post a few links here....</summary>
+<author>
+<name>Lori</name>
+
+<email>lori@avocado8.com</email>
+</author>
+<dc:subject>books</dc:subject>
+<content type="text/html" mode="escaped" xml:lang="en" xml:base="http://www.avocado8.com/blog/">
+ I know the sidebar is meant to capture recent books I’ve read, but I keep thinking that I need to make this blog more mobile-friendly and ditch the sidebar entirely&amp;#8212;if I can even remember how to CSS anymore&amp;#8212;so I’m going to post a few links here....
+</content>
+</entry>
+<entry>
+<title>Strategy for Down Days</title>
+<link rel="alternate" type="text/html" href="http://www.avocado8.com/blog/archives/2018/12/strategy_for_down_days.html" />
+<modified>2020-12-24T08:24:02Z</modified>
+<issued>2018-12-05T10:06:14Z</issued>
+<id>tag:www.avocado8.com,2018:/blog//1.2567</id>
+<created>2018-12-05T10:06:14Z</created>
+<summary type="text/plain"> ‪When I’m feeling inadequate and not up to the task some days, I breathe through it, hunker down, and plow on until my confidence returns. It always comes back; there’s always some win on the horizon, whether it’s a successful meeting, a good coaching opportunity, or a clever idea. It’s coming, and in the meantime there is work to be done: bugs to be triaged, advice to be given, status to be reported, negotiations to be conducted. All of...</summary>
+<author>
+<name>Lori</name>
+
+<email>lori@avocado8.com</email>
+</author>
+<dc:subject>work</dc:subject>
+<content type="text/html" mode="escaped" xml:lang="en" xml:base="http://www.avocado8.com/blog/">
+ ‪When I’m feeling inadequate and not up to the task some days, I breathe through it, hunker down, and plow on until my confidence returns. It always comes back; there’s always some win on the horizon, whether it’s a successful meeting, a good coaching opportunity, or a clever idea. It’s coming, and in the meantime there is work to be done: bugs to be triaged, advice to be given, status to be reported, negotiations to be conducted. All of...
+</content>
+</entry>
+<entry>
+<title>What I Value in Software Engineering Management</title>
+<link rel="alternate" type="text/html" href="http://www.avocado8.com/blog/archives/2017/08/what_i_value_in_a_software_engin.html" />
+<modified>2017-09-06T23:23:44Z</modified>
+<issued>2017-08-17T17:10:34Z</issued>
+<id>tag:www.avocado8.com,2017:/blog//1.2565</id>
+<created>2017-08-17T17:10:34Z</created>
+<summary type="text/plain"> Back in December 2016, my manager and I were talking about my philosophy of software development. I&apos;d become a Director of Mobile Engineering in March 2015, but I didn&apos;t become a manager of managers until I finally filled the Android Manager position on my team in October 2015—and even then I was still directly managing the iOS team. It wasn&apos;t until the fall of 2016 that I stopped managing any of the individual developers directly. Welcome to a new...</summary>
+<author>
+<name>Lori</name>
+
+<email>lori@avocado8.com</email>
+</author>
+<dc:subject>work</dc:subject>
+<content type="text/html" mode="escaped" xml:lang="en" xml:base="http://www.avocado8.com/blog/">
+ Back in December 2016, my manager and I were talking about my philosophy of software development. I&apos;d become a Director of Mobile Engineering in March 2015, but I didn&apos;t become a manager of managers until I finally filled the Android Manager position on my team in October 2015—and even then I was still directly managing the iOS team. It wasn&apos;t until the fall of 2016 that I stopped managing any of the individual developers directly. Welcome to a new...
+</content>
+</entry>
+<entry>
+<title>Compression is My Fashion Now</title>
+<link rel="alternate" type="text/html" href="http://www.avocado8.com/blog/archives/2016/09/compression_is_my_fashion_now_1.html" />
+<modified>2016-09-10T19:58:47Z</modified>
+<issued>2016-09-10T07:03:45Z</issued>
+<id>tag:www.avocado8.com,2016:/blog//1.2564</id>
+<created>2016-09-10T07:03:45Z</created>
+<summary type="text/plain"> So I&apos;ve had a bulging vein in the back of my right leg for oh, I guess a few years now. Maybe as many as 12 years? It&apos;s hard to remember, because I mostly ignored it until maybe two years ago. I think this vein was around when I was pregnant; I certainly remember having a painful bulging vein in my inner thigh, just above the knee, when I was pregnant, but that went away afterward. In any case,...</summary>
+<author>
+<name>Lori</name>
+
+<email>lori@avocado8.com</email>
+</author>
+<dc:subject>fashion statements</dc:subject>
+<content type="text/html" mode="escaped" xml:lang="en" xml:base="http://www.avocado8.com/blog/">
+ So I&apos;ve had a bulging vein in the back of my right leg for oh, I guess a few years now. Maybe as many as 12 years? It&apos;s hard to remember, because I mostly ignored it until maybe two years ago. I think this vein was around when I was pregnant; I certainly remember having a painful bulging vein in my inner thigh, just above the knee, when I was pregnant, but that went away afterward. In any case,...
+</content>
+</entry>
+<entry>
+<title>These Things Weigh on Me</title>
+<link rel="alternate" type="text/html" href="http://www.avocado8.com/blog/archives/2016/08/these_things_weigh_on_me_1.html" />
+<modified>2016-08-15T23:24:14Z</modified>
+<issued>2016-08-15T22:53:13Z</issued>
+<id>tag:www.avocado8.com,2016:/blog//1.2563</id>
+<created>2016-08-15T22:53:13Z</created>
+<summary type="text/plain"></summary>
+<author>
+<name>Lori</name>
+
+<email>lori@avocado8.com</email>
+</author>
+<dc:subject>fashion statements</dc:subject>
+<content type="text/html" mode="escaped" xml:lang="en" xml:base="http://www.avocado8.com/blog/">
+
+</content>
+</entry>
+<entry>
+<title>IDK WTF ¯\_(ツ)_/¯</title>
+<link rel="alternate" type="text/html" href="http://www.avocado8.com/blog/archives/2015/09/idk_wtf_1.html" />
+<modified>2015-09-21T17:47:04Z</modified>
+<issued>2015-09-21T17:10:35Z</issued>
+<id>tag:www.avocado8.com,2015:/blog//1.2561</id>
+<created>2015-09-21T17:10:35Z</created>
+<summary type="text/plain"> I&apos;ll preface this by saying yes, the Beaner has an iPhone. He inherited my old 3GS when I upgraded to a 4 a few years ago, and he now has a 5c. Not really interested in debating or dispensing advice about what age kids should have cell phones. Follow your own road on that one....</summary>
+<author>
+<name>Lori</name>
+
+<email>lori@avocado8.com</email>
+</author>
+<dc:subject>parenthood</dc:subject>
+<content type="text/html" mode="escaped" xml:lang="en" xml:base="http://www.avocado8.com/blog/">
+ I&apos;ll preface this by saying yes, the Beaner has an iPhone. He inherited my old 3GS when I upgraded to a 4 a few years ago, and he now has a 5c. Not really interested in debating or dispensing advice about what age kids should have cell phones. Follow your own road on that one....
+</content>
+</entry>
+<entry>
+<title>Where the Rubber Duck Meets the Road</title>
+<link rel="alternate" type="text/html" href="http://www.avocado8.com/blog/archives/2015/01/where_the_rubber_duck_meets_the.html" />
+<modified>2015-01-27T21:08:10Z</modified>
+<issued>2015-01-27T20:20:06Z</issued>
+<id>tag:www.avocado8.com,2015:/blog//1.2560</id>
+<created>2015-01-27T20:20:06Z</created>
+<summary type="text/plain"> I swear a good part of my day is spent listening to developers make a case for why something can&apos;t be done&amp;#8212;it&apos;s too hard, it will take too long, it will introduce another bug, it will require convoluted code or introduce a tremendous amount of technical debt&amp;#8212;and then synthesizing their argument and making a case to the product owner or the engineering director that the work should be altered, put off, or just axed entirely... only to find that...</summary>
+<author>
+<name>Lori</name>
+
+<email>lori@avocado8.com</email>
+</author>
+<dc:subject>management report</dc:subject>
+<content type="text/html" mode="escaped" xml:lang="en" xml:base="http://www.avocado8.com/blog/">
+ I swear a good part of my day is spent listening to developers make a case for why something can&apos;t be done&amp;#8212;it&apos;s too hard, it will take too long, it will introduce another bug, it will require convoluted code or introduce a tremendous amount of technical debt&amp;#8212;and then synthesizing their argument and making a case to the product owner or the engineering director that the work should be altered, put off, or just axed entirely... only to find that...
+</content>
+</entry>
+<entry>
+<title>Resolution Reading</title>
+<link rel="alternate" type="text/html" href="http://www.avocado8.com/blog/archives/2015/01/resolution_reading_1.html" />
+<modified>2015-01-13T06:45:16Z</modified>
+<issued>2015-01-13T04:37:10Z</issued>
+<id>tag:www.avocado8.com,2015:/blog//1.2558</id>
+<created>2015-01-13T04:37:10Z</created>
+<summary type="text/plain"> I don&apos;t spend as much time as I used to browsing for myself at bookstores anymore&amp;#8212;when we do go, I often look for something more substantial than Captain Underpants that the Beaner might like&amp;#8212;but it is my habit to buy three or four books at a time when I do. Not sure why; I usually just find a bunch of things that look interesting and can&apos;t decide among them, so I get them all. The next thing that usually...</summary>
+<author>
+<name>Lori</name>
+
+<email>lori@avocado8.com</email>
+</author>
+<dc:subject>books</dc:subject>
+<content type="text/html" mode="escaped" xml:lang="en" xml:base="http://www.avocado8.com/blog/">
+ I don&apos;t spend as much time as I used to browsing for myself at bookstores anymore&amp;#8212;when we do go, I often look for something more substantial than Captain Underpants that the Beaner might like&amp;#8212;but it is my habit to buy three or four books at a time when I do. Not sure why; I usually just find a bunch of things that look interesting and can&apos;t decide among them, so I get them all. The next thing that usually...
+</content>
+</entry>
+<entry>
+<title>User 591,003 of 250 million</title>
+<link rel="alternate" type="text/html" href="http://www.avocado8.com/blog/archives/2015/01/user_591003_of_250_million.html" />
+<modified>2015-01-08T22:28:09Z</modified>
+<issued>2015-01-08T20:36:25Z</issued>
+<id>tag:www.avocado8.com,2015:/blog//1.2557</id>
+<created>2015-01-08T20:36:25Z</created>
+<summary type="text/plain"> So it turns out that Joe is reading. :-) The back and forth we&apos;ve had over Twitter and through the post I just linked his name to brought to mind a couple things:...</summary>
+<author>
+<name>Lori</name>
+
+<email>lori@avocado8.com</email>
+</author>
+<dc:subject>privacy</dc:subject>
+<content type="text/html" mode="escaped" xml:lang="en" xml:base="http://www.avocado8.com/blog/">
+ So it turns out that Joe is reading. :-) The back and forth we&apos;ve had over Twitter and through the post I just linked his name to brought to mind a couple things:...
+</content>
+</entry>
+<entry>
+<title>Traction or Distraction?</title>
+<link rel="alternate" type="text/html" href="http://www.avocado8.com/blog/archives/2015/01/traction_or_distraction.html" />
+<modified>2015-01-05T00:10:49Z</modified>
+<issued>2015-01-04T23:26:05Z</issued>
+<id>tag:www.avocado8.com,2015:/blog//1.2556</id>
+<created>2015-01-04T23:26:05Z</created>
+<summary type="text/plain"> Started back at the beginning&amp;#8212;Week 1, Day 1&amp;#8212;of the 10K Runner program on Friday. I probably could have started at week 5, which I usually do after a running break, but after a couple hockey injuries and being sick the week of Christmas, I figured it couldn&apos;t hurt to ease my way back in slowly. I did Day 2 this morning and forgot to take my inhaler first, and I was wheezing by the end. Technically the chest cold...</summary>
+<author>
+<name>Lori</name>
+
+<email>lori@avocado8.com</email>
+</author>
+<dc:subject>me, me, me</dc:subject>
+<content type="text/html" mode="escaped" xml:lang="en" xml:base="http://www.avocado8.com/blog/">
+ Started back at the beginning&amp;#8212;Week 1, Day 1&amp;#8212;of the 10K Runner program on Friday. I probably could have started at week 5, which I usually do after a running break, but after a couple hockey injuries and being sick the week of Christmas, I figured it couldn&apos;t hurt to ease my way back in slowly. I did Day 2 this morning and forgot to take my inhaler first, and I was wheezing by the end. Technically the chest cold...
+</content>
+</entry>
+<entry>
+<title>It Was on MY Calendar, Anyway</title>
+<link rel="alternate" type="text/html" href="http://www.avocado8.com/blog/archives/2015/01/it_was_on_my_calendar_anyway.html" />
+<modified>2015-01-03T07:25:43Z</modified>
+<issued>2015-01-03T07:09:20Z</issued>
+<id>tag:www.avocado8.com,2015:/blog//1.2553</id>
+<created>2015-01-03T07:09:20Z</created>
+<summary type="text/plain"> It was just me, Brad, and Yanni at band practice tonight—which wasn&apos;t terrible, because there are a bunch of songs just the three of us can play, and with no one waiting for a turn on drums, we could run through the same song 4 or 5 times. Janie Jones is actually starting to sound good, and the Misfits song is working, too. Yanni wants to do Electric Funeral, which I am down for, but I&apos;m starting to wonder...</summary>
+<author>
+<name>Lori</name>
+
+<email>lori@avocado8.com</email>
+</author>
+<dc:subject>music</dc:subject>
+<content type="text/html" mode="escaped" xml:lang="en" xml:base="http://www.avocado8.com/blog/">
+ It was just me, Brad, and Yanni at band practice tonight—which wasn&apos;t terrible, because there are a bunch of songs just the three of us can play, and with no one waiting for a turn on drums, we could run through the same song 4 or 5 times. Janie Jones is actually starting to sound good, and the Misfits song is working, too. Yanni wants to do Electric Funeral, which I am down for, but I&apos;m starting to wonder...
+</content>
+</entry>
+<entry>
+<title>Holy Shit, I&apos;m Done with Reviews</title>
+<link rel="alternate" type="text/html" href="http://www.avocado8.com/blog/archives/2015/01/holy_shit_im_done_with_reviews.html" />
+<modified>2015-01-01T22:23:17Z</modified>
+<issued>2015-01-01T22:20:05Z</issued>
+<id>tag:www.avocado8.com,2015:/blog//1.2552</id>
+<created>2015-01-01T22:20:05Z</created>
+<summary type="text/plain"> I finally submitted my ninth and final annual review document minutes ago. If you&apos;ve never experienced writer&apos;s block or the insane urge to do anything else but describe the work of the people on your team, count your lucky stars. Or, if you&apos;re into that sort of thing, I highly recommend management!...</summary>
+<author>
+<name>Lori</name>
+
+<email>lori@avocado8.com</email>
+</author>
+<dc:subject>work</dc:subject>
+<content type="text/html" mode="escaped" xml:lang="en" xml:base="http://www.avocado8.com/blog/">
+ I finally submitted my ninth and final annual review document minutes ago. If you&apos;ve never experienced writer&apos;s block or the insane urge to do anything else but describe the work of the people on your team, count your lucky stars. Or, if you&apos;re into that sort of thing, I highly recommend management!...
+</content>
+</entry>
+<entry>
+<title>Does Anybody Blog Anymore?</title>
+<link rel="alternate" type="text/html" href="http://www.avocado8.com/blog/archives/2014/12/does_anybody_blog_anymore.html" />
+<modified>2015-01-01T21:11:28Z</modified>
+<issued>2015-01-01T03:27:30Z</issued>
+<id>tag:www.avocado8.com,2014:/blog//1.2551</id>
+<created>2015-01-01T03:27:30Z</created>
+<summary type="text/plain"> I used to feel bad about the fact that I didn&apos;t sit down to write on a regular basis anymore, and I&apos;ve resolved many times to write more often, as much to chronicle this part of my life as to practice stringing coherent thoughts together. It was only when I saw the caption on an Instagram photo of one of my contacts, recently&amp;#8212;a person whose blog I used to read regularly&amp;#8212;mentioning that she&apos;d blogged for the first time in...</summary>
+<author>
+<name>Lori</name>
+
+<email>lori@avocado8.com</email>
+</author>
+<dc:subject>bloggity goodness</dc:subject>
+<content type="text/html" mode="escaped" xml:lang="en" xml:base="http://www.avocado8.com/blog/">
+ I used to feel bad about the fact that I didn&apos;t sit down to write on a regular basis anymore, and I&apos;ve resolved many times to write more often, as much to chronicle this part of my life as to practice stringing coherent thoughts together. It was only when I saw the caption on an Instagram photo of one of my contacts, recently&amp;#8212;a person whose blog I used to read regularly&amp;#8212;mentioning that she&apos;d blogged for the first time in...
+</content>
+</entry>
+
+</feed>

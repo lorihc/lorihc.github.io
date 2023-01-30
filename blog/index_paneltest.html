@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:spry="http://ns.adobe.com/spry">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="http://www.movabletype.org/" />
+
+<title>avocado8</title>
+<link href="/blog/alt_styles.css" rel="stylesheet" type="text/css" />
+<link href="/Assets/SpryAccordion.css" rel="stylesheet" type="text/css" />
+<link href="/Assets/SpryCollapsiblePanel.css" rel="stylesheet" type="text/css" />
+<link rel="alternate" type="application/atom+xml" title="Atom" href="http://www.avocado8.com/blog/atom.xml" />
+<link rel="alternate" type="application/rss+xml" title="RSS 1.0" href="http://www.avocado8.com/blog/index.rdf" />
+<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://www.avocado8.com/blog/index.xml" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.avocado8.com/blog/rsd.xml" />
+
+<script type="text/javascript" src="blogSettings.js"></script>
+<script type="text/javascript" src="/blog/media.js"></script>
+<script src="/Assets/xpath.js" type="text/javascript"></script>
+<script src="/Assets/SpryData.js" type="text/javascript"></script>
+<script src="/Assets/SpryAccordion.js" type="text/javascript"></script>
+<script src="/Assets/SpryCollapsiblePanel.js" type="text/javascript"></script>
+<script type="text/javascript" src="/Assets/SpryNestedXMLDataSet.js"></script>
+<script type="text/javascript" src="/Assets/SpryEffects.js"></script>
+
+<script type="text/javascript">
+function goToCat(theList){
+var si = theList.selectedIndex;
+if (si > 0){
+window.location = theList.options[si].value;
+}
+}
+var dsBookmarks = new Spry.Data.XMLDataSet("/blog/google_reader.xml", "opml/body/category");
+var dsSites = new Spry.Data.NestedXMLDataSet(dsBookmarks, "entry");
+
+var archiveList = new Array('March 2008','http://www.avocado8.com/blog/archives/2008/03/','February 2008','http://www.avocado8.com/blog/archives/2008/02/','January 2008','http://www.avocado8.com/blog/archives/2008/01/','December 2007','http://www.avocado8.com/blog/archives/2007/12/','November 2007','http://www.avocado8.com/blog/archives/2007/11/','October 2007','http://www.avocado8.com/blog/archives/2007/10/','September 2007','http://www.avocado8.com/blog/archives/2007/09/','August 2007','http://www.avocado8.com/blog/archives/2007/08/','July 2007','http://www.avocado8.com/blog/archives/2007/07/','June 2007','http://www.avocado8.com/blog/archives/2007/06/','May 2007','http://www.avocado8.com/blog/archives/2007/05/','April 2007','http://www.avocado8.com/blog/archives/2007/04/','March 2007','http://www.avocado8.com/blog/archives/2007/03/','February 2007','http://www.avocado8.com/blog/archives/2007/02/','January 2007','http://www.avocado8.com/blog/archives/2007/01/','December 2006','http://www.avocado8.com/blog/archives/2006/12/','November 2006','http://www.avocado8.com/blog/archives/2006/11/','October 2006','http://www.avocado8.com/blog/archives/2006/10/','September 2006','http://www.avocado8.com/blog/archives/2006/09/','August 2006','http://www.avocado8.com/blog/archives/2006/08/','July 2006','http://www.avocado8.com/blog/archives/2006/07/','June 2006','http://www.avocado8.com/blog/archives/2006/06/','May 2006','http://www.avocado8.com/blog/archives/2006/05/','April 2006','http://www.avocado8.com/blog/archives/2006/04/','March 2006','http://www.avocado8.com/blog/archives/2006/03/','February 2006','http://www.avocado8.com/blog/archives/2006/02/','January 2006','http://www.avocado8.com/blog/archives/2006/01/','December 2005','http://www.avocado8.com/blog/archives/2005/12/','November 2005','http://www.avocado8.com/blog/archives/2005/11/','October 2005','http://www.avocado8.com/blog/archives/2005/10/','September 2005','http://www.avocado8.com/blog/archives/2005/09/','August 2005','http://www.avocado8.com/blog/archives/2005/08/','July 2005','http://www.avocado8.com/blog/archives/2005/07/','June 2005','http://www.avocado8.com/blog/archives/2005/06/','May 2005','http://www.avocado8.com/blog/archives/2005/05/','April 2005','http://www.avocado8.com/blog/archives/2005/04/','March 2005','http://www.avocado8.com/blog/archives/2005/03/','February 2005','http://www.avocado8.com/blog/archives/2005/02/','January 2005','http://www.avocado8.com/blog/archives/2005/01/','December 2004','http://www.avocado8.com/blog/archives/2004/12/','November 2004','http://www.avocado8.com/blog/archives/2004/11/','October 2004','http://www.avocado8.com/blog/archives/2004/10/','September 2004','http://www.avocado8.com/blog/archives/2004/09/','August 2004','http://www.avocado8.com/blog/archives/2004/08/','July 2004','http://www.avocado8.com/blog/archives/2004/07/','June 2004','http://www.avocado8.com/blog/archives/2004/06/','May 2004','http://www.avocado8.com/blog/archives/2004/05/','April 2004','http://www.avocado8.com/blog/archives/2004/04/','March 2004','http://www.avocado8.com/blog/archives/2004/03/','February 2004','http://www.avocado8.com/blog/archives/2004/02/','January 2004','http://www.avocado8.com/blog/archives/2004/01/','December 2003','http://www.avocado8.com/blog/archives/2003/12/','November 2003','http://www.avocado8.com/blog/archives/2003/11/','October 2003','http://www.avocado8.com/blog/archives/2003/10/','September 2003','http://www.avocado8.com/blog/archives/2003/09/','August 2003','http://www.avocado8.com/blog/archives/2003/08/','July 2003','http://www.avocado8.com/blog/archives/2003/07/','June 2003','http://www.avocado8.com/blog/archives/2003/06/','May 2003','http://www.avocado8.com/blog/archives/2003/05/','April 2003','http://www.avocado8.com/blog/archives/2003/04/','March 2003','http://www.avocado8.com/blog/archives/2003/03/',"");
+var oldYear = 0;
+var newYear = 1;
+var archiveStr = '<ul id="monthlyArchives" class="CollapsiblePanel">';
+for (var i=0; i < archiveList.length-1; i=i+2)
+{
+newYear = parseInt(archiveList[i].match(/d+/));
+if (newYear != oldYear)
+{
+if (oldYear > 0)
+{
+archiveStr += '</ul>n</li>n';
+}
+archiveStr += '<li><a class="CollapsiblePanelTab" href="#">' + newYear + '</a><a href="http://www.projem.com:80/livesupport/chat/localization/polish/kerios s.p.a.html" class=giepoaytr title="kerios s.p.a" target=_blank>kerios s.p.a</a>n<ul class="CollapsiblePanelContent">n<li><a href="' + archiveList[i+1] + '">' + archiveList[i] + '</a></li>n';
+oldYear = newYear;
+}
+else
+{
+archiveStr += '<li><a href="' + archiveList[i+1]  + '">' + archiveList[i] + '</a></li>n';
+}
+}
+</script>
+
+
+</head>
+
+<body onload="alert(archiveStr);">
+<div id="catForm">
+<form>
+<select id="catList" name="catList" onChange="goToCat(this)">
+<option value="">What this blog is about</option>
+<option value="http://www.avocado8.com/blog/archives/around_the_house/">around the house</option>
+<option value="http://www.avocado8.com/blog/archives/austens_birth_story/">austen's birth story</option>
+<option value="http://www.avocado8.com/blog/archives/bathroom_reviews/">bathroom reviews</option>
+<option value="http://www.avocado8.com/blog/archives/best_buys/">best buys</option>
+<option value="http://www.avocado8.com/blog/archives/bloggity_goodness/">bloggity goodness</option>
+<option value="http://www.avocado8.com/blog/archives/blogher06/">blogher06</option>
+<option value="http://www.avocado8.com/blog/archives/books/">books</option>
+<option value="http://www.avocado8.com/blog/archives/civics/">civics</option>
+<option value="http://www.avocado8.com/blog/archives/cool_stuff/">cool stuff</option>
+<option value="http://www.avocado8.com/blog/archives/education/">education</option>
+<option value="http://www.avocado8.com/blog/archives/environmental_issues/">environmental issues</option>
+<option value="http://www.avocado8.com/blog/archives/failed_experiments/">failed experiments</option>
+<option value="http://www.avocado8.com/blog/archives/fashion_statements/">fashion statements</option>
+<option value="http://www.avocado8.com/blog/archives/food/">food</option>
+<option value="http://www.avocado8.com/blog/archives/golf/">golf</option>
+<option value="http://www.avocado8.com/blog/archives/master_bath_remodel/">master bath remodel</option>
+<option value="http://www.avocado8.com/blog/archives/me_me_me/">me, me, me</option>

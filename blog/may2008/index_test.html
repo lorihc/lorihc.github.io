@@ -1,0 +1,285 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:spry="http://ns.adobe.com/spry">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>avocado8 ~ blog</title>
+<link href="/blog/may2008/SpryAccordion.css" rel="stylesheet" type="text/css" />
+
+<script src="/blog/archives.js" type="text/javascript"></script>
+<script type="text/javascript" src="/blog/blogSettings.js"></script>
+<script type="text/javascript" src="/blog/media.js"></script>
+<script src="/Assets/xpath.js" type="text/javascript"></script>
+<script src="/Assets/SpryData.js" type="text/javascript"></script>
+<script src="/Assets/SpryAccordion.js" type="text/javascript"></script>
+<script type="text/javascript" src="/Assets/SpryNestedXMLDataSet.js"></script>
+<script type="text/javascript" src="/Assets/SpryEffects.js"></script>
+<script type="text/javascript">
+var dsBookmarks = new Spry.Data.XMLDataSet("/blog/google_reader.xml", "opml/body/category");
+var dsSites = new Spry.Data.NestedXMLDataSet(dsBookmarks, "entry");
+</script>
+<link href="/blog/may2008/twoColLiqRt.css" rel="stylesheet" type="text/css" />
+<!--[if IE]>
+<style type="text/css"> 
+/* place css fixes for all versions of IE in this conditional comment */
+.twoColLiqRt #sidebar1 { padding-top: 30px; }
+.twoColLiqRt #mainContent { zoom: 1; padding-top: 15px; }
+/* the above proprietary zoom property gives IE the hasLayout it needs to avoid several bugs */
+</style>
+<![endif]-->
+<link href="/blog/may2008/a8_blogstyles.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body class="twoColLiqRt">
+
+<div id="container">
+	<h1 class="masthead">avocado<span class="innards">8</span></a></h1>
+	  <div id="sidebar1">
+<div class="side">
+<img alt="self-portrait sans smile" src="/blog/images/bw_selfportrait_250.jpg" width="250" height="375" galleryimg="no" style="margin-top:5px" class="noborder"/>
+</div>
+
+<div class="syndicate"> <strong style="color:black">All entries and photos &copy; Lori Hylan-Cho</strong><br />
+<a href="index.rdf">Syndicate this site (XML)</a> </div>
+<h3>
+Also By <a href="/me.html">Me</a>
+</h3>
+<div class="side">
+<script language="JavaScript">
+document.write(alsoByMe);
+</script>
+</div>
+
+<h3>
+MORE Recent Entries
+</h3>
+<div class="side"> 
+<a href="http://www.avocado8.com/blog/archives/2020/12/barry_smooth.html">Barry Smooth</a><br />
+<a href="http://www.avocado8.com/blog/archives/2020/06/_a_couple_weeks_ago.html">Books on the Bottom</a><br />
+<a href="http://www.avocado8.com/blog/archives/2020/02/recent_adventures_in_audio_1.html">Recent Adventures in Audio</a><br />
+<a href="http://www.avocado8.com/blog/archives/2018/12/strategy_for_down_days.html">Strategy for Down Days</a><br />
+<a href="http://www.avocado8.com/blog/archives/2017/08/what_i_value_in_a_software_engin.html">What I Value in Software Engineering Management</a><br />
+<a href="http://www.avocado8.com/blog/archives/2016/09/compression_is_my_fashion_now_1.html">Compression is My Fashion Now</a><br />
+<a href="http://www.avocado8.com/blog/archives/2016/08/these_things_weigh_on_me_1.html">These Things Weigh on Me</a><br />
+<a href="http://www.avocado8.com/blog/archives/2015/09/idk_wtf_1.html">IDK WTF ¯\_(ツ)_/¯</a><br />
+
+</div>
+
+<table id="flickr_badge_uber_wrapper">
+<tr><script type="text/javascript" src="http://www.flickr.com/badge_code_v2.gne?count=3&display=latest&size=s&layout=h&source=user&user=51822599%40N00"></script>
+</tr>
+</table>
+
+<h3>
+Archives
+</h3>
+<div class="side">
+<div id="archiveAcc" class="tree" tabindex="0">
+<script type="text/javascript">
+document.write(getArchiveHTML());
+</script>
+</div>
+</div>
+
+<h3>
+Search for an Entry
+</h3>
+<div class="side">
+<form method="get" action="http://www.google.com/search" target="_top">
+<p>Use Google to find an old post: <br />
+<input type="hidden" name="domains" value="www.avocado8.com"/>
+<input type="text" name="q" style="width:165px;margin-top:9px;" maxlength="255" value=""/>
+<input type="hidden" name="sitesearch" value="http://www.avocado8.com/blog/"/>
+<input type="submit" name="sa" value="Search"/>
+<input type="hidden" name="client" value="pub-5466696375842589"/>
+<input type="hidden" name="forid" value="1"/>
+<input type="hidden" name="ie" value="ISO-8859-1"/>
+<input type="hidden" name="oe" value="ISO-8859-1"/>
+<input type="hidden" name="cof" value="GALT:#008000;GL:1;DIV:#336699;VLC:663399;AH:center;BGC:FFFFFF;LBGC:336699;ALC:0000FF;LC:0000FF;T:000000;GFNT:0000FF;GIMP:0000FF;FORID:1;"/>
+<input type="hidden" name="hl" value="en"/>
+</p>
+</form>
+</div>
+<h3>
+Bookmarks</h3>
+<div class="side SpryHiddenRegion" spry:region="dsBookmarks dsSites">
+<div id="Accordion1" class="Accordion" tabindex="0">
+<div class="AccordionPanel" spry:repeat="dsBookmarks">
+<div class="AccordionPanelTab">
+{@title}
+</div>
+<div class="AccordionPanelContent">
+<ul spry:repeatchildren="dsSites">
+<li><a href="{dsSites::@htmlUrl}">{dsSites::@title}</a></li>
+</ul>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+<!--
+var Accordion1 = new Spry.Widget.Accordion("Accordion1", { useFixedPanelHeights: false, transition: Spry.circleTransition });
+//-->
+</script>
+</div>
+
+<h3>
+Additional Reading</h3>
+<div class="side">
+<script language="JavaScript">
+document.write(booklist);
+</script>
+</div>
+
+<h3>
+In the Background
+</h3>
+<div class="side">
+<script language="JavaScript">
+document.write(backgroundNoise);
+</script>
+</div>
+
+<h3>
+Overindulgences</h3>
+<div class="side">
+<script language="JavaScript">
+document.write(overindulgences);
+</script>
+<br />
+</div>
+
+
+<div class="powered">
+Powered by<br /><a href="http://www.movabletype.org">Movable Type 3.34</a><br />    
+</div>
+
+<div class="syndicate">
+<a href="http://www.cafepress.com/avocado8/" target="cp_win"><img src="/blog/images/cafepress/ctrl_t_large.jpg" alt="Mommy may have all the other keys, but I've got Ctrl infant/toddler T" width="240" height="240" /></a><br />
+Buy your <br />
+<span style="font-size:larger;color:#222;">Mommy may have <br />
+all the other keys, <br />
+but I've got Ctrl</span><br />
+infant/toddler t-shirt<br />
+plus other fine avocado8 swag at <strong><a href="http://www.cafepress.com/avocado8/" target="cp_win"><br />
+the avocado8 store on Cafe Press</a> <br />
+now!
+</strong><br />
+<table id="a8_swag">
+<tr>
+<td class="flickr_badge_image"><a href="http://www.cafepress.com/avocado8.32230526" target="a8_win"><img src="/blog/images/cafepress/bib_thumb.jpg" alt="blog fodder bib" width="75" height="75" border="0" /></a></td>
+<td class="flickr_badge_image"><a href="http://www.cafepress.com/avocado8.11657700" target="a8_win"><img src="/blog/images/cafepress/touch_belly_thumb.jpg" alt="touch the belly, lose an arm baby doll T" width="75" height="75" border="0" /></a></td>
+<td class="flickr_badge_image"><a href="http://www.cafepress.com/avocado8.2337270" target="a8_win"><img src="/blog/images/cafepress/mug_thumb.jpg" alt="avocado8 mug" width="75" height="75" border="0" /></a></td>
+</tr>
+</table>
+</div>  <!-- end #sidebar1 -->
+</div>
+  <div id="mainContent">
+<div class="blogbody">
+		
+    	<h2 class="title" id="002570">Barry Smooth</h2>
+    	<p>
+Of course I have a list of things I want to write about, but rather than waiting to write about them in order, I'm going to spew this one out right now: <a href="https://www.audible.com/pd/A-Promised-Land-Audiobook/0525633723">The audiobook version of Barack Obama's book The Promised Land</a> is so good.
+</p>
+        <p>
+I was excited to read it until I heard a commentator&#8212;was it Jason Johnson?&#8212;on MSNBC say it was only ok, not really great, and totally skippable. After that I wasn't sure I wanted to invest 29+ hours and one of my two precious monthly credits (I'm at the point where I'm waiting for the 15th to roll around every month for the new credits to arrive) in this book. After 13 hours of listening over the past 36 hours or so, I am so glad I did. Actually, I was sold after the first 10 minutes. All I can think of is that Jason skimmed the print copy rather than listening to Obama read his own words.
+</p>
+
+<p>
+Obama's voice is captivating. I <s>could</s> did listen to him all day. I can't say for sure that the wry humor, exasperation, or frustration <em>wouldn't</em> be obvious on the page, but it's definitely present in the audiobook, and it's delightful. It's also so interesting to see his political career, and his early days in the White House, from his perspective. (I'm up to about the summer of 2009 at this point.) It's not like any of the information in the book (so far) is completely new, but the point of view definitely is. While pundits might be skeptical of Obama's take on his own presidency, I find his perspective as valuable&#8212;and perhaps more so&#8212;than any other. So interesting.
+</p>
+
+<p>
+I thought about throwing the timer on and letting him read me to sleep last night, but in the end I decided against it because I didn't want to miss anything. It's really that good.</p>
+	
+		<div class="posted">
+		Posted by Lori in <a href="../&lt;$MTCategoryArchiveLink$&gt;">books</a> at 10:08 PM on <strong>December 21, 2020</strong>
+	
+	
+	| <a href="../&lt;$MTEntryPermalink$&gt;">Permalink</a>	
+		</div>
+	</div>
+	<div class="blogbody">
+		
+    	<h2 class="title" id="002571">Books on the Bottom</h2>
+    	<p>
+A couple weeks ago I was attempting to multi-task: I was cooking a skillet of beans and broccoli while joining a Webex meeting on my iPad to review an early draft of one of my teammates’ WWDC presentations. I’d just connected—with mute on due to the cooking—and went to check the recipe for the exact amount of water to add when two of the four brackets holding up the top shelf of this cabinet—which used to hold all the cookbooks and a martini pitcher—suddenly gave way, breaking one of the wine glasses below and raining cookbooks on my shoulders. I started screaming HELP! HELP! while holding up the shelf to keep the martini pitcher from coming down on me too. My colleagues on the Webex didn’t spot the drama happening at the far end of the kitchen, but Al interrupted a phone interview and Austen a video game to come in and help me hold up the shelf and dig out from under the books. “In hindsight,” said Al, “the books probably should have gone on the bottom shelf.”
+</p>
+
+        <p>
+My knees were shaking for a good 10 minutes afterward, but I managed to participate in the meeting and finish cooking my lunch. 
+</p>
+
+<p>
+The run-up to WWDC means work has been practically non-stop since then, and the cabinet has remained full of shattered glass, and the cookbooks have remained piled on the kitchen table, until today. I stayed up insanely late last night to clear my to do list, attended two scheduled meetings this morning, and then blocked off the rest of the day to bake. 
+</p>
+
+<p>
+I always start a baking session by cleaning the kitchen first, which meant dealing with the cabinet. I removed the broken wine glass and the large pieces of glass, put the rest of the glassware in the dishwasher & ran it, vacuumed up the small bits, and re-hung the shelf. I then put the books where they should have been all along, moved the martini pitcher elsewhere, and re-shelved the glasses. I wish now that I had hung the top shelf one peg lower, but this will do. 
+</p>
+
+<p class="pictureP">
+<img alt="Glassware and recipe books in a glass-fronted cabinet, with books on the bottom where they belong" src="https://live.staticflickr.com/65535/50746486587_93c32b57e7_z.jpg" width="480" height="640" style="margin-top:12px" />
+</p>
+	
+		<div class="posted">
+		Posted by Lori in <a href="../&lt;$MTCategoryArchiveLink$&gt;">around the house</a> at  7:07 PM on <strong>June 17, 2020</strong>
+	
+	
+	| <a href="../&lt;$MTEntryPermalink$&gt;">Permalink</a>	
+		</div>
+	</div>
+	<div class="blogbody">
+		
+    	<h2 class="title" id="002568">Recent Adventures in Audio</h2>
+    	<p>
+I know the sidebar is meant to capture recent books I’ve read, but I keep thinking that I need to make this blog more mobile-friendly and ditch the sidebar entirely&#8212;if I can even remember how to CSS anymore&#8212;so I’m going to post a few links here. 
+</p>
+        <p>
+All of these are Audible links because that’s mainly how I consume books these days&#8212;listening while cleaning the house, doing laundry, running errands, baking, biking, and puzzling. I did recently read a paper book (if I can remember what it was by the end of this post, I’ll include it in the list), and it felt decadent to spend time just sitting and reading. I think sometimes I kid myself that binge-watching The Great British Bake Off or Downton Abbey <em>isn’t</em> decadent only because I’m also doing a puzzle or (ostensibly) chopping vegetables at the same time. In the case of the baking show, I'm doing a lot more standing in front of the iPad than I am chopping.
+</p>
+
+<p>
+In reverse order of listening:
+</p>
+
+<p>
+<a href=“http://a.co/dKBzEq9”>Uncanny Valley</a> by Anna Wiener<br/>
+I particularly enjoyed how she referred to companies and apps descriptively rather than by name (e.g., "the social network everyone hated"). I'm betting I can convince Austen to read this just for the satisfaction of being able to identify all of them.
+</p>
+
+<p>
+<a href="http://a.co/4iBM4Oq">The Ride of a Lifetime</a> by Bob Iger<br/>
+Simultaneously a chronicle of a career, a meditation on management, a justification of acquisition, and a love letter to Steve Jobs. I enjoyed all of it, but I wish Iger had read the whole thing himself instead of just the introduction. 
+</p>
+
+<p>
+<a href="http://a.co/8J9INDJ">Disappearing Earth</a> by Julia Phillips <br/>
+This is probably the most inventive novel I've read since Colson Whitehead's <a href="http://a.co/bLLXPuc">The Underground Railroad</a> (which I started as a paper book and finished as an audiobook and preferred the latter, as the narrator was excellent), though it's completely different. I love that its focus and point of view is on and about women, and it made a remote part of Russia feel completely contemporary and relevant.
+</p>
+
+<p>
+I won't bother to list all the political and current events books I've listened to in the past few months, though <a href="http://a.co/gu69J2q">She Said</a> was good, and I recommend <a href="http://a.co/65JiUbe">The Fifth Risk</a> by Michael Lewis.
+</p>
+
+<p>
+As promised, one more link: <a href="https://www.powells.com/book/-9781594631320">Stir</a> by Jessica Fechtor is, I think, the last paper book I read (over Thanksgiving). I thought maybe there was another since then, but if so, I can't bring it to mind.
+</p>
+	
+		<div class="posted">
+		Posted by Lori in <a href="../&lt;$MTCategoryArchiveLink$&gt;">books</a> at  6:44 PM on <strong>February  8, 2020</strong>
+	
+	
+	| <a href="../&lt;$MTEntryPermalink$&gt;">Permalink</a>	
+		</div>
+	</div>
+	
+  <!-- end #mainContent -->
+  </div>
+	<!-- This clearing element should immediately follow the #mainContent div in order to force the #container div to contain all child floats --><br class="clearfloat" />
+<!-- end #container --></div>
+<script type="text/javascript">
+<!--
+var archiveAcc = new Spry.Widget.Accordion("archiveAcc", { useFixedPanelHeights: false, transition: Spry.circleTransition, hoverClass:"treePanelTabHover",openClass:"treePanelOpen", focusedClass:"treeFocused", closedClass:"treePanelClosed" });
+//-->
+</script>
+</body>
+</html>

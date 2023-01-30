@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+xmlns:admin="http://webns.net/mvcb/"
+xmlns:cc="http://web.resource.org/cc/"
+xmlns="http://purl.org/rss/1.0/">
+
+<channel rdf:about="http://www.avocado8.com/blog/">
+<title>avocado8</title>
+<link>http://www.avocado8.com/blog/</link>
+<description>regaling the web with tales of whoa</description>
+<dc:creator></dc:creator>
+<dc:date>2020-12-21T22:08:23-08:00</dc:date>
+<admin:generatorAgent rdf:resource="http://www.movabletype.org/?v=3.34" />
+
+
+<items>
+<rdf:Seq><rdf:li rdf:resource="http://www.avocado8.com/blog/archives/2020/12/barry_smooth.html" />
+<rdf:li rdf:resource="http://www.avocado8.com/blog/archives/2020/06/_a_couple_weeks_ago.html" />
+<rdf:li rdf:resource="http://www.avocado8.com/blog/archives/2020/02/recent_adventures_in_audio_1.html" />
+<rdf:li rdf:resource="http://www.avocado8.com/blog/archives/2018/12/strategy_for_down_days.html" />
+<rdf:li rdf:resource="http://www.avocado8.com/blog/archives/2017/08/what_i_value_in_a_software_engin.html" />
+<rdf:li rdf:resource="http://www.avocado8.com/blog/archives/2016/09/compression_is_my_fashion_now_1.html" />
+<rdf:li rdf:resource="http://www.avocado8.com/blog/archives/2016/08/these_things_weigh_on_me_1.html" />
+<rdf:li rdf:resource="http://www.avocado8.com/blog/archives/2015/09/idk_wtf_1.html" />
+<rdf:li rdf:resource="http://www.avocado8.com/blog/archives/2015/01/where_the_rubber_duck_meets_the.html" />
+<rdf:li rdf:resource="http://www.avocado8.com/blog/archives/2015/01/resolution_reading_1.html" />
+<rdf:li rdf:resource="http://www.avocado8.com/blog/archives/2015/01/user_591003_of_250_million.html" />
+<rdf:li rdf:resource="http://www.avocado8.com/blog/archives/2015/01/traction_or_distraction.html" />
+<rdf:li rdf:resource="http://www.avocado8.com/blog/archives/2015/01/it_was_on_my_calendar_anyway.html" />
+<rdf:li rdf:resource="http://www.avocado8.com/blog/archives/2015/01/holy_shit_im_done_with_reviews.html" />
+<rdf:li rdf:resource="http://www.avocado8.com/blog/archives/2014/12/does_anybody_blog_anymore.html" />
+</rdf:Seq>
+</items>
+
+</channel>
+
+<item rdf:about="http://www.avocado8.com/blog/archives/2020/12/barry_smooth.html">
+<title>Barry Smooth</title>
+<link>http://www.avocado8.com/blog/archives/2020/12/barry_smooth.html</link>
+<description><![CDATA[<p>
+Of course I have a list of things I want to write about, but rather than waiting to write about them in order, I'm going to spew this one out right now: <a href="https://www.audible.com/pd/A-Promised-Land-Audiobook/0525633723">The audiobook version of Barack Obama's book The Promised Land</a> is so good.
+</p>]]></description>
+<dc:subject>books</dc:subject>
+<dc:creator>Lori</dc:creator>
+<dc:date>2020-12-21T22:08:23-08:00</dc:date>
+</item>
+<item rdf:about="http://www.avocado8.com/blog/archives/2020/06/_a_couple_weeks_ago.html">
+<title>Books on the Bottom</title>
+<link>http://www.avocado8.com/blog/archives/2020/06/_a_couple_weeks_ago.html</link>
+<description><![CDATA[<p>
+A couple weeks ago I was attempting to multi-task: I was cooking a skillet of beans and broccoli while joining a Webex meeting on my iPad to review an early draft of one of my teammates’ WWDC presentations. I’d just connected—with mute on due to the cooking—and went to check the recipe for the exact amount of water to add when two of the four brackets holding up the top shelf of this cabinet—which used to hold all the cookbooks and a martini pitcher—suddenly gave way, breaking one of the wine glasses below and raining cookbooks on my shoulders. I started screaming HELP! HELP! while holding up the shelf to keep the martini pitcher from coming down on me too. My colleagues on the Webex didn’t spot the drama happening at the far end of the kitchen, but Al interrupted a phone interview and Austen a video game to come in and help me hold up the shelf and dig out from under the books. “In hindsight,” said Al, “the books probably should have gone on the bottom shelf.”
+</p>
+]]></description>
+<dc:subject>around the house</dc:subject>
+<dc:creator>Lori</dc:creator>
+<dc:date>2020-06-17T19:07:30-08:00</dc:date>
+</item>
+<item rdf:about="http://www.avocado8.com/blog/archives/2020/02/recent_adventures_in_audio_1.html">
+<title>Recent Adventures in Audio</title>
+<link>http://www.avocado8.com/blog/archives/2020/02/recent_adventures_in_audio_1.html</link>
+<description><![CDATA[<p>
+I know the sidebar is meant to capture recent books I’ve read, but I keep thinking that I need to make this blog more mobile-friendly and ditch the sidebar entirely&#8212;if I can even remember how to CSS anymore&#8212;so I’m going to post a few links here. 
+</p>]]></description>
+<dc:subject>books</dc:subject>
+<dc:creator>Lori</dc:creator>
+<dc:date>2020-02-08T18:44:14-08:00</dc:date>
+</item>
+<item rdf:about="http://www.avocado8.com/blog/archives/2018/12/strategy_for_down_days.html">
+<title>Strategy for Down Days</title>
+<link>http://www.avocado8.com/blog/archives/2018/12/strategy_for_down_days.html</link>
+<description><![CDATA[<p>
+‪When I’m feeling inadequate and not up to the task some days, I breathe through it, hunker down, and plow on until my confidence returns. It always comes back; there’s always some win on the horizon, whether it’s a successful meeting, a good coaching opportunity, or a clever idea. It’s coming, and in the meantime there is work to be done: bugs to be triaged, advice to be given, status to be reported, negotiations to be conducted. All of these are easier when I’m on a confidence high, but they can still be done when feeling low. I keep going until I feel not only competent, but well equipped to pull others out of their depths. 
+</p>]]></description>
+<dc:subject>work</dc:subject>
+<dc:creator>Lori</dc:creator>
+<dc:date>2018-12-05T02:06:14-08:00</dc:date>
+</item>
+<item rdf:about="http://www.avocado8.com/blog/archives/2017/08/what_i_value_in_a_software_engin.html">
+<title>What I Value in Software Engineering Management</title>
+<link>http://www.avocado8.com/blog/archives/2017/08/what_i_value_in_a_software_engin.html</link>
+<description><![CDATA[<p>
+Back in December 2016, my manager and I were talking about my philosophy of software development. I'd become a Director of Mobile Engineering in March 2015, but I didn't become a manager of managers until I finally filled the Android Manager position on my team in October 2015—and even then I was still directly managing the iOS team. It wasn't until the fall of 2016 that I stopped managing any of the individual developers directly. Welcome to a new challenge!
+</p>]]></description>
+<dc:subject>work</dc:subject>
+<dc:creator>Lori</dc:creator>
+<dc:date>2017-08-17T09:10:34-08:00</dc:date>
+</item>
+<item rdf:about="http://www.avocado8.com/blog/archives/2016/09/compression_is_my_fashion_now_1.html">
+<title>Compression is My Fashion Now</title>
+<link>http://www.avocado8.com/blog/archives/2016/09/compression_is_my_fashion_now_1.html</link>
+<description><![CDATA[<p>
+So I've had a bulging vein in the back of my right leg for oh, I guess a few years now. Maybe as many as 12 years? It's hard to remember, because I mostly ignored it until maybe two years ago. I think this vein was around when I was pregnant; I certainly remember having a painful bulging vein in my inner thigh, just above the knee, when I was pregnant, but that went away afterward. In any case, that thigh vein re-emerged last year, around the same time that the one in the back of my leg—which either was joined by others or collapsed so spectacularly that it looks like more than one—went from annoyingly itchy to occasionally painful. (It's also ugly, but since I don't see it myself, and I'm not trying to attract anyone who doesn't already share a bed with me, I didn't really care what it looked like.)
+</p>]]></description>
+<dc:subject>fashion statements</dc:subject>
+<dc:creator>Lori</dc:creator>
+<dc:date>2016-09-09T23:03:45-08:00</dc:date>
+</item>
+<item rdf:about="http://www.avocado8.com/blog/archives/2016/08/these_things_weigh_on_me_1.html">
+<title>These Things Weigh on Me</title>
+<link>http://www.avocado8.com/blog/archives/2016/08/these_things_weigh_on_me_1.html</link>
+<description></description>
+<dc:subject>fashion statements</dc:subject>
+<dc:creator>Lori</dc:creator>
+<dc:date>2016-08-15T14:53:13-08:00</dc:date>
+</item>
+<item rdf:about="http://www.avocado8.com/blog/archives/2015/09/idk_wtf_1.html">
+<title>IDK WTF ¯\_(ツ)_/¯</title>
+<link>http://www.avocado8.com/blog/archives/2015/09/idk_wtf_1.html</link>
+<description><![CDATA[<p>
+<em>I'll preface this by saying yes, the Beaner has an iPhone. He inherited my old 3GS when I upgraded to a 4 a few years ago, and he now has a 5c. Not really interested in debating or dispensing advice about what age kids should have cell phones. Follow your own road on that one.</em>
+</p>]]></description>
+<dc:subject>parenthood</dc:subject>
+<dc:creator>Lori</dc:creator>
+<dc:date>2015-09-21T09:10:35-08:00</dc:date>
+</item>
+<item rdf:about="http://www.avocado8.com/blog/archives/2015/01/where_the_rubber_duck_meets_the.html">
+<title>Where the Rubber Duck Meets the Road</title>
+<link>http://www.avocado8.com/blog/archives/2015/01/where_the_rubber_duck_meets_the.html</link>
+<description><![CDATA[<p>
+I swear a good part of my day is spent listening to developers make a case for why something can't be done&#8212;it's too hard, it will take too long, it will introduce another bug, it will require convoluted code or introduce a tremendous amount of technical debt&#8212;and then synthesizing their argument and making a case to the product owner or the engineering director that the work should be altered, put off, or just axed entirely... only to find that when I've successfully argued the case, the developer has just gone and done the work after all. This usually involves a shrug and a, "oh, it turned out to be easier/not as bad as I thought" or "after I thought about it some more, I came up with an approach that would work."
+</p>]]></description>
+<dc:subject>management report</dc:subject>
+<dc:creator>Lori</dc:creator>
+<dc:date>2015-01-27T12:20:06-08:00</dc:date>
+</item>
+<item rdf:about="http://www.avocado8.com/blog/archives/2015/01/resolution_reading_1.html">
+<title>Resolution Reading</title>
+<link>http://www.avocado8.com/blog/archives/2015/01/resolution_reading_1.html</link>
+<description><![CDATA[<p>
+I don't spend as much time as I used to browsing for myself at bookstores anymore&#8212;when we do go, I often look for something more substantial than Captain Underpants that the Beaner might like&#8212;but it is my habit to buy three or four books at a time when I do. Not sure why; I usually just find a bunch of things that look interesting and can't decide among them, so I get them all. The next thing that usually happens is I read one of them, and the rest stay in a pile on or under my nightstand, gathering dust, until I eventually put them on the bookshelf.
+</p>]]></description>
+<dc:subject>books</dc:subject>
+<dc:creator>Lori</dc:creator>
+<dc:date>2015-01-12T20:37:10-08:00</dc:date>
+</item>
+<item rdf:about="http://www.avocado8.com/blog/archives/2015/01/user_591003_of_250_million.html">
+<title>User 591,003 of 250 million</title>
+<link>http://www.avocado8.com/blog/archives/2015/01/user_591003_of_250_million.html</link>
+<description><![CDATA[<p>
+So it turns out that <a href="http://artlung.com/blog/2015/01/08/i-wonder-if-anyone-is-reading-this/" target="a8_window">Joe</a> is reading. :-) The back and forth we've had over Twitter and through the post I just linked his name to brought to mind a couple things:
+</p>]]></description>
+<dc:subject>privacy</dc:subject>
+<dc:creator>Lori</dc:creator>
+<dc:date>2015-01-08T12:36:25-08:00</dc:date>
+</item>
+<item rdf:about="http://www.avocado8.com/blog/archives/2015/01/traction_or_distraction.html">
+<title>Traction or Distraction?</title>
+<link>http://www.avocado8.com/blog/archives/2015/01/traction_or_distraction.html</link>
+<description><![CDATA[<p>
+Started back at the beginning&#8212;Week 1, Day 1&#8212;of the 10K Runner program on Friday. I probably could have started at week 5, which I usually do after a running break, but after a couple hockey injuries and being sick the week of Christmas, I figured it couldn't hurt to ease my way back in slowly. I did Day 2 this morning and forgot to take my inhaler first, and I was wheezing by the end. Technically the chest cold is over, but the goo and the shortness of breath... they linger.
+</p>]]></description>
+<dc:subject>me, me, me</dc:subject>
+<dc:creator>Lori</dc:creator>
+<dc:date>2015-01-04T15:26:05-08:00</dc:date>
+</item>
+<item rdf:about="http://www.avocado8.com/blog/archives/2015/01/it_was_on_my_calendar_anyway.html">
+<title>It Was on MY Calendar, Anyway</title>
+<link>http://www.avocado8.com/blog/archives/2015/01/it_was_on_my_calendar_anyway.html</link>
+<description><![CDATA[<p>
+It was just me, Brad, and Yanni at band practice tonight—which wasn't terrible, because there are a bunch of songs just the three of us can play, and with no one waiting for a turn on drums, we could run through the same song 4 or 5 times. Janie Jones is actually starting to sound good, and the Misfits song is working, too. Yanni wants to do Electric Funeral, which I am down for, but I'm starting to wonder if we should just do all of Paranoid as a show. It could work. 
+</p>]]></description>
+<dc:subject>music</dc:subject>
+<dc:creator>Lori</dc:creator>
+<dc:date>2015-01-02T23:09:20-08:00</dc:date>
+</item>
+<item rdf:about="http://www.avocado8.com/blog/archives/2015/01/holy_shit_im_done_with_reviews.html">
+<title>Holy Shit, I&apos;m Done with Reviews</title>
+<link>http://www.avocado8.com/blog/archives/2015/01/holy_shit_im_done_with_reviews.html</link>
+<description><![CDATA[<p>
+I finally submitted my ninth and final annual review document minutes ago. If you've never experienced writer's block or the insane urge to do <em>anything</em> else but describe the work of the people on your team, count your lucky stars. Or, if you're into that sort of thing, I highly recommend management!
+</p>]]></description>
+<dc:subject>work</dc:subject>
+<dc:creator>Lori</dc:creator>
+<dc:date>2015-01-01T14:20:05-08:00</dc:date>
+</item>
+<item rdf:about="http://www.avocado8.com/blog/archives/2014/12/does_anybody_blog_anymore.html">
+<title>Does Anybody Blog Anymore?</title>
+<link>http://www.avocado8.com/blog/archives/2014/12/does_anybody_blog_anymore.html</link>
+<description><![CDATA[<p>
+I used to feel bad about the fact that I didn't sit down to write on a regular basis anymore, and I've resolved many times to write more often, as much to chronicle this part of my life as to practice stringing coherent thoughts together. It was only when I saw the caption on an Instagram photo of one of my contacts, recently&#8212;a person whose blog I used to read regularly&#8212;mentioning that she'd blogged for the first time in a long time, and then a follow-up comment that said, "It's rare that I go check out blogs anymore..." that I realized that a tipping point had been reached, and non-blogging might be A Thing now. Not even a thing we all complain about, as we used to ("I'm way behind on my blogging," yadda yadda), but just A Thing. It reminds me of that scene in When Harry Met Sally when Sally says something about her friend who complains that now that she has kids she and her husband never have sex anymore, and then she says, actually, now that I think about it, she didn't even complain about it.
+</p>]]></description>
+<dc:subject>bloggity goodness</dc:subject>
+<dc:creator>Lori</dc:creator>
+<dc:date>2014-12-31T19:27:30-08:00</dc:date>
+</item>
+
+
+</rdf:RDF>

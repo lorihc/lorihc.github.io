@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+    <head>
+        <title>avocadoh subscriptions in Google Reader</title>
+    </head>
+    <body>
+        <category title="daily" text="daily">
+            <entry text="amalah . com" title="amalah" type="rss"
+                xmlUrl="http://www.amalah.com/amalah/atom.xml" htmlUrl="http://www.amalah.com/amalah/"/>
+            <entry text="Flickr Blog" title="Flickr Blog" type="rss"
+                xmlUrl="http://blog.flickr.com/en/feed/" htmlUrl="http://blog.flickr.net"/>
+            <entry text="fresh perspective" title="fresh perspective"
+                type="rss"
+                xmlUrl="http://www.freshperspective.com/index.rdf" htmlUrl="http://www.freshperspective.com/"/>
+            <entry text="juliloquy" title="juliloquy" type="rss"
+                xmlUrl="http://juliloquy.typepad.com/juliloquy/atom.xml" htmlUrl="http://juliloquy.typepad.com/juliloquy/"/>
+            <entry text="Life in the Slow Lane"
+                title="Life in the Slow Lane" type="rss"
+                xmlUrl="http://litsl.violinalchemist.com/atom.xml" htmlUrl="http://litsl.violinalchemist.com/"/>
+            <entry text="Mighty Girl" title="Mighty Girl" type="rss"
+                xmlUrl="http://mightygirl.com/feed/" htmlUrl="http://mightygirl.com"/>
+            <entry text="NPR Series: Planet Money"
+                title="NPR Series: Planet Money" type="rss"
+                xmlUrl="http://www.npr.org/rss/rss.php?id=94427042" htmlUrl="http://www.npr.org/templates/story/story.php?storyId=94427042&amp;ft=1&amp;f=94427042"/>
+            <entry text="Sarah and the Goon Squad"
+                title="Sarah and the Goon Squad" type="rss"
+                xmlUrl="http://feeds.feedburner.com/SarahAndTheGoonSquad" htmlUrl="http://sarahandthegoonsquad.com"/>
+            <entry text="The Big Money" title="The Big Money"
+                type="rss"
+                xmlUrl="http://feeds.feedburner.com/thebigmoney/RSSFeed" htmlUrl="http://tbm.thebigmoney.com"/>
+            <entry text="You Grow Girl: The Dirt"
+                title="You Grow Girl: The Dirt" type="rss"
+                xmlUrl="http://feeds.feedburner.com/yougrowgirl/" htmlUrl="http://www.yougrowgirl.com/thedirt"/>
+        </category>
+        <category title="almost-daily" text="almost-daily">
+            <entry text="A Girl..." title="A Girl..." type="rss"
+                xmlUrl="http://www.agirlandaboy.com/journal/index.rdf" htmlUrl="http://www.agirlandaboy.com/journal/"/>
+            <entry text="defective yeti" title="defective yeti"
+                type="rss"
+                xmlUrl="http://www.defectiveyeti.com/index.xml" htmlUrl="http://www.defectiveyeti.com/"/>
+            <entry text="Derek Powazek" title="Derek Powazek"
+                type="rss" xmlUrl="http://powazek.com/feed/" htmlUrl="http://powazek.com"/>
+            <entry text="Fussy" title="Fussy" type="rss"
+                xmlUrl="http://www.fussy.org/atom.xml" htmlUrl="http://www.fussy.org/"/>
+            <entry text="heather powazek champ, words"
+                title="heather powazek champ, words" type="rss"
+                xmlUrl="http://www.hchamp.com/other/index.rdf" htmlUrl="http://www.hchamp.com/other/"/>
+            <entry text="inwonoh.com" title="inwonoh.com" type="rss"
+                xmlUrl="http://inwonoh.com/feed/" htmlUrl="http://inwonoh.com"/>
+            <entry text="Jeffrey Zeldman Presents The Daily Report"
+                title="Jeffrey Zeldman Presents The Daily Report"
+                type="rss" xmlUrl="http://zeldman.com/rss/" htmlUrl="http://www.zeldman.com"/>
+            <entry text="John's Blog" title="John's Blog" type="rss"
+                xmlUrl="http://john.jubjubs.net/feed/" htmlUrl="http://john.jubjubs.net"/>
+            <entry text="Kari's Couch" title="Kari's Couch" type="rss"
+                xmlUrl="http://feeds.feedburner.com/KarisCouch" htmlUrl="http://www.karianna.us/blog/"/>
+            <entry text="No Pasa Nada" title="No Pasa Nada" type="rss"
+                xmlUrl="http://nopasanada.org/feed/" htmlUrl="http://nopasanada.org"/>
+            <entry text="Ratphooey" title="Ratphooey" type="rss"
+                xmlUrl="http://ratphooey.livejournal.com/data/rss" htmlUrl="http://ratphooey.livejournal.com/"/>
+            <entry text="Schmutzie's Milkmoney Or Not, Here I Come"
+                title="Schmutzie's Milkmoney Or Not, Here I Come"
+                type="rss"
+                xmlUrl="http://feeds.feedburner.com/schmutzie" htmlUrl="http://www.schmutzie.com/"/>
+            <entry text="smartypants's diary"
+                title="smartypants's diary" type="rss"
+                xmlUrl="http://smartypants.diaryland.com/index.rss" htmlUrl="http://smartypants.diaryland.com/"/>
+        </category>
+        <category title="weekly" text="weekly">
+            <entry text="3quarksdaily" title="3quarksdaily" type="rss"
+                xmlUrl="http://3quarksdaily.blogs.com/3quarksdaily/atom.xml" htmlUrl="http://3quarksdaily.blogs.com/3quarksdaily/"/>
+            <entry text="a little pregnant" title="a little pregnant"
+                type="rss"
+                xmlUrl="http://www.alittlepregnant.com/alittlepregnant/index.rdf" htmlUrl="http://www.alittlepregnant.com/alittlepregnant/"/>
+            <entry text="A Walk Through Durham Township, Pennsylvania"
+                title="A Walk Through Durham Township, Pennsylvania"
+                type="rss"
+                xmlUrl="http://www.durhamtownship.com/index.rdf" htmlUrl="http://www.durhamtownship.com/"/>
+            <entry text="An Accident of Hope"
+                title="An Accident of Hope" type="rss"
+                xmlUrl="http://www.summerpierre.com/atom.xml" htmlUrl="http://www.summerpierre.com/blog.html"/>
+            <entry text="an affair with urban policy"
+                title="an affair with urban policy" type="rss"
+                xmlUrl="http://www.wowflutter.com/feed/" htmlUrl="http://www.wowflutter.com"/>
+            <entry text="Confessions of a Pioneer Woman"
+                title="Confessions of a Pioneer Woman" type="rss"
+                xmlUrl="http://feeds.feedburner.com/thepioneerwoman" htmlUrl="http://thepioneerwoman.com/"/>
+            <entry text="dooce" title="dooce" type="rss"
+                xmlUrl="http://www.dooce.com/rss.xml" htmlUrl="http://www.dooce.com"/>
+            <entry text="Electrolicious" title="Electrolicious"
+                type="rss"
+                xmlUrl="http://www.electrolicious.com/index.rdf" htmlUrl="http://electrolicious.com"/>
+            <entry text="girlfiend" title="girlfiend" type="rss"
+                xmlUrl="http://girl-fiend.com/?feed=rss2" htmlUrl="http://girl-fiend.com"/>
+            <entry text="leahpeah" title="leahpeah" type="rss"
+                xmlUrl="http://leahpeah.com/blog/feed/" htmlUrl="http://leahpeah.com/blog"/>
+            <entry text="Mackville Road" title="Mackville Road"
+                type="rss"
+                xmlUrl="http://mackvilleroad.blogspot.com/feeds/posts/default" htmlUrl="http://mackvilleroad.blogspot.com/"/>
+            <entry text="MetroDad" title="MetroDad" type="rss"
+                xmlUrl="http://metrodad.typepad.com/index/atom.xml" htmlUrl="http://metrodad.typepad.com/index/"/>
+            <entry text="Mom-101" title="Mom-101" type="rss"
+                xmlUrl="http://feeds.feedburner.com/Mom-101" htmlUrl="http://mom-101.blogspot.com/"/>
+            <entry text="momster" title="momster" type="rss"
+                xmlUrl="http://irenenam.squarespace.com/journal/atom.xml" htmlUrl="http://irenenam.squarespace.com/journal/"/>
+            <entry text="nj" title="nj" type="rss"
+                xmlUrl="http://tritone.livejournal.com/data/rss" htmlUrl="http://tritone.livejournal.com/"/>
+            <entry text="Ransom Note Typography"
+                title="Ransom Note Typography" type="rss"
+                xmlUrl="http://www.ransom-note-typography.com/index.php/weblog/rss_2.0/" htmlUrl="http://www.ransom-note-typography.com/index.php/weblog/index/"/>
+            <entry text="red stapler" title="red stapler" type="rss"
+                xmlUrl="http://redstapler23.blogspot.com/atom.xml" htmlUrl="http://redstapler23.blogspot.com/"/>
+            <entry text="Secret Agent Josephine"
+                title="Secret Agent Josephine" type="rss"
+                xmlUrl="http://secret-agent-josephine.com/blog/feed/" htmlUrl="http://secret-agent-josephine.com/blog"/>
+            <entry text="SLOlane" title="SLOlane" type="rss"
+                xmlUrl="http://www.slolane.org/index.xml" htmlUrl="http://slolane.org/"/>
+            <entry
+                text="The Adventures of Accordion Guy in the 21st Century"
+                title="The Adventures of Accordion Guy in the 21st Century"
+                type="rss" xmlUrl="http://joeydevilla.com/feed/" htmlUrl="http://www.joeydevilla.com"/>
+            <entry text="The Gossip...according to Luke"
+                title="The Gossip...according to Luke" type="rss"
+                xmlUrl="http://lukearmour.blogspot.com/atom.xml" htmlUrl="http://lukearmour.blogspot.com/"/>
+            <entry text="The Sietch Blog" title="The Sietch Blog"
+                type="rss" xmlUrl="http://www.blog.thesietch.org/feed/" htmlUrl="http://www.blog.thesietch.org"/>
+            <entry text="Uppercase Woman" title="Uppercase Woman"
+                type="rss"
+                xmlUrl="http://www.uppercasewoman.com/wastedbirthcontrol/atom.xml" htmlUrl="http://www.uppercasewoman.com/wastedbirthcontrol/"/>
+            <entry text="what's new, pussycat?"
+                title="what's new, pussycat?" type="rss"
+                xmlUrl="http://www.shauny.org/pussycat/atom.xml" htmlUrl="http://www.shauny.org/pussycat/"/>
+            <entry text="Woulda Coulda Shoulda"
+                title="Woulda Coulda Shoulda" type="rss"
+                xmlUrl="http://wouldashoulda.com/feed/" htmlUrl="http://wouldashoulda.com"/>
+        </category>
+        <category title="monthly" text="monthly">
+            <entry text="blurbomat.com" title="blurbomat.com"
+                type="rss" xmlUrl="http://blurbomat.com/feed/" htmlUrl="http://blurbomat.com"/>
+            <entry text="Brain Reserves" title="Brain Reserves"
+                type="rss"
+                xmlUrl="http://brainreserves.blogspot.com/feeds/posts/default" htmlUrl="http://brainreserves.blogspot.com/"/>
+            <entry text="finslippy" title="finslippy" type="rss"
+                xmlUrl="http://finslippy.typepad.com/finslippy/atom.xml" htmlUrl="http://www.finslippy.com/finslippy/"/>
+            <entry text="Kimchi Mamas" title="Kimchi Mamas" type="rss"
+                xmlUrl="http://feeds.feedburner.com/typepad/Kimchi/kimchi_mamas" htmlUrl="http://kimchimamas.typepad.com/kimchi_mamas/"/>
+            <entry text="lawmummy" title="lawmummy" type="rss"
+                xmlUrl="http://feeds.feedburner.com/MommyGrowsUp" htmlUrl="http://www.lawmummy.com/"/>
+            <entry text="mirandatime" title="mirandatime" type="rss"
+                xmlUrl="http://mirandatime.livejournal.com/data/rss" htmlUrl="http://mirandatime.livejournal.com/"/>
+            <entry text="our little willi" title="our little willi"
+                type="rss"
+                xmlUrl="http://ourlittlewilli.blogspot.com/atom.xml" htmlUrl="http://ourlittlewilli.blogspot.com/"/>
+            <entry text="Princess Bookworm" title="Princess Bookworm"
+                type="rss"
+                xmlUrl="http://princessbookworm.blogspot.com/atom.xml" htmlUrl="http://princessbookworm.blogspot.com/"/>
+            <entry text="PunditMom" title="PunditMom" type="rss"
+                xmlUrl="http://punditmom1.blogspot.com/feeds/posts/default" htmlUrl="http://punditmom1.blogspot.com/"/>
+            <entry text="Superhero Journal" title="Superhero Journal"
+                type="rss"
+                xmlUrl="http://www.superherodesigns.com/journal/index.rdf" htmlUrl="http://www.superherodesigns.com/journal/"/>
+            <entry text="sweetney" title="sweetney" type="rss"
+                xmlUrl="http://www.sweetney.com/atom.xml" htmlUrl="http://www.sweetney.com/"/>
+            <entry text="The Silent I" title="The Silent I" type="rss"
+                xmlUrl="http://glenniacampbell.typepad.com/silenti/atom.xml" htmlUrl="http://glenniacampbell.typepad.com/silenti/"/>
+            <entry text="The Traveling Londons"
+                title="The Traveling Londons" type="rss"
+                xmlUrl="http://londonsoft.typepad.com/travelinglondons/atom.xml" htmlUrl="http://londonsoft.typepad.com/travelinglondons/"/>
+        </category>
+        <category title="geekly" text="geekly">
+            <entry text="A List Apart" title="A List Apart" type="rss"
+                xmlUrl="http://www.alistapart.com/feed/rss.xml" htmlUrl="http://www.alistapart.com/"/>
+            <entry text="Ajaxian" title="Ajaxian" type="rss"
+                xmlUrl="http://feeds.feedburner.com/ajaxian" htmlUrl="http://ajaxian.com"/>
+            <entry text="Aptana Ajax Frameworks Forum"
+                title="Aptana Ajax Frameworks Forum" type="rss"
+                xmlUrl="http://forums.aptana.com/rss.php?f=40" htmlUrl="http://forums.aptana.com//"/>
+            <entry text="Aptana Forums" title="Aptana Forums"
+                type="rss" xmlUrl="http://forums.aptana.com/rss.php" htmlUrl="http://forums.aptana.com//"/>
+            <entry text="Aptana ScriptDoc Forum"
+                title="Aptana ScriptDoc Forum" type="rss"
+                xmlUrl="http://forums.aptana.com/rss.php?f=5" htmlUrl="http://forums.aptana.com//"/>
+            <entry text="Backup Brain" title="Backup Brain" type="rss"
+                xmlUrl="http://www.backupbrain.com/index.xml" htmlUrl="http://www.backupbrain.com/"/>
+            <entry text="box of chocolates" title="box of chocolates"
+                type="rss" xmlUrl="http://www.boxofchocolates.ca/feed/" htmlUrl="http://boxofchocolates.ca"/>
+            <entry text="Coding Horror" title="Coding Horror"
+                type="rss"
+                xmlUrl="http://feeds.feedburner.com/codinghorror/" htmlUrl="http://www.codinghorror.com/blog/"/>
+            <entry text="DOM Scripting Blog"
+                title="DOM Scripting Blog" type="rss"
+                xmlUrl="http://domscripting.com/blog/rss" htmlUrl="http://domscripting.com/blog/"/>
+            <entry text="Global Nerdy" title="Global Nerdy" type="rss"
+                xmlUrl="http://feeds.feedburner.com/GlobalNerdy" htmlUrl="http://www.globalnerdy.com"/>
+            <entry text="Google Testing Blog"
+                title="Google Testing Blog" type="rss"
+                xmlUrl="http://googletesting.blogspot.com/feeds/posts/default" htmlUrl="http://googletesting.blogspot.com/"/>
+            <entry text="Hixie's Natural Log"
+                title="Hixie's Natural Log" type="rss"
+                xmlUrl="http://ln.hixie.ch/?command=RSS&amp;format=with-html" htmlUrl="http://ln.hixie.ch/"/>
+            <entry text="JD on EP" title="JD on EP" type="rss"
+                xmlUrl="http://weblogs.macromedia.com/jd/atom.xml" htmlUrl="http://weblogs.macromedia.com/jd/"/>
+            <entry text="Joel on Software" title="Joel on Software"
+                type="rss"
+                xmlUrl="http://www.joelonsoftware.com/rss.xml" htmlUrl="http://www.joelonsoftware.com"/>
+            <entry text="kottke.org" title="kottke.org" type="rss"
+                xmlUrl="http://feeds.kottke.org/main" htmlUrl="http://www.kottke.org/"/>
+            <entry text="molly.com" title="molly.com" type="rss"
+                xmlUrl="http://www.molly.com/feed/" htmlUrl="http://www.molly.com"/>
+            <entry text="Open Congress : Congress Gossip Blog"
+                title="Open Congress : Congress Gossip Blog" type="rss"
+                xmlUrl="http://feeds.feedburner.com/OpenCongressCongressGossipBlog" htmlUrl="http://www.opencongress.org/blog"/>
+            <entry text="Slash7 with Amy Hoy - Home"
+                title="Slash7 with Amy Hoy - Home" type="rss"
+                xmlUrl="http://feeds.feedburner.com/slash7/rss" htmlUrl="http://www.slash7.com/"/>
+            <entry text="Strobist" title="Strobist" type="rss"
+                xmlUrl="http://strobist.blogspot.com/feeds/posts/default" htmlUrl="http://strobist.blogspot.com/"/>
+            <entry text="TechCrunch" title="TechCrunch" type="rss"
+                xmlUrl="http://feeds.feedburner.com/Techcrunch" htmlUrl="http://www.techcrunch.com"/>
+            <entry text="this is rachelandrew.co.uk"
+                title="this is rachelandrew.co.uk" type="rss"
+                xmlUrl="http://www.rachelandrew.co.uk/feed/" htmlUrl="http://www.rachelandrew.co.uk"/>
+            <entry text="Thoughts From Eric"
+                title="Thoughts From Eric" type="rss"
+                xmlUrl="http://meyerweb.com/eric/thoughts/rss2/full" htmlUrl="http://meyerweb.com"/>
+            <entry text="Top Questions - Stack Overflow"
+                title="Top Questions - Stack Overflow" type="rss"
+                xmlUrl="http://stackoverflow.com/feeds" htmlUrl="http://stackoverflow.com/questions"/>
+            <entry text="Tucows Developer Blog"
+                title="Tucows Developer Blog" type="rss"
+                xmlUrl="http://services.tucows.com/developers/feed/" htmlUrl="http://services.tucows.com/developers"/>
+            <entry text="UIE Brain Sparks" title="UIE Brain Sparks"
+                type="rss" xmlUrl="http://www.uie.com/brainsparks/feed/" htmlUrl="http://www.uie.com/brainsparks"/>
+            <entry text="xkcd.com" title="xkcd.com" type="rss"
+                xmlUrl="http://xkcd.com/rss.xml" htmlUrl="http://xkcd.com/"/>
+        </category>
+        <category title="hockey" text="hockey">
+            <entry text="Beer League Hockey"
+                title="Beer League Hockey" type="rss"
+                xmlUrl="http://www.beerleaguehockey.com/feed/" htmlUrl="http://www.beerleaguehockey.com"/>
+            <entry text="bloggo chicago" title="bloggo chicago"
+                type="rss" xmlUrl="http://bloggochicago.com/feed/" htmlUrl="http://bloggochicago.com"/>
+            <entry text="librarygrrrl.net" title="librarygrrrl.net"
+                type="rss" xmlUrl="http://www.librarygrrrl.net/feed/" htmlUrl="http://www.librarygrrrl.net"/>
+            <entry text="Max and Me" title="Max and Me" type="rss"
+                xmlUrl="http://maxandme-hockey.blogspot.com/feeds/posts/default" htmlUrl="http://maxandme-hockey.blogspot.com/"/>
+            <entry text="one clumsy girl" title="one clumsy girl"
+                type="rss"
+                xmlUrl="http://www.oneclumsygirl.com/?feed=rss2" htmlUrl="http://www.oneclumsygirl.com"/>
+            <entry text="Talk Hockey To Me" title="Talk Hockey To Me"
+                type="rss"
+                xmlUrl="http://www.talkhockeytome.com/feeds/posts/default" htmlUrl="http://www.talkhockeytome.com/"/>
+        </category>
+        <category title="feed-me" text="feed-me">
+            <entry text="Bay Area Bites" title="Bay Area Bites"
+                type="rss"
+                xmlUrl="http://www.kqed.org/weblog/food/atom.xml" htmlUrl="http://blogs.kqed.org/bayareabites"/>
+            <entry text="Deglazed" title="Deglazed" type="rss"
+                xmlUrl="http://www.finarelli.com/blog/feed/" htmlUrl="http://finarelli.com/blog"/>
+            <entry text="Diner's Journal" title="Diner's Journal"
+                type="rss"
+                xmlUrl="http://dinersjournal.blogs.nytimes.com/?feed=rss2" htmlUrl="http://dinersjournal.blogs.nytimes.com"/>
+            <entry text="eggbeater" title="eggbeater" type="rss"
+                xmlUrl="http://eggbeater.typepad.com/shuna/atom.xml" htmlUrl="http://eggbeater.typepad.com/shuna/"/>
+            <entry text="helenjane.com" title="helenjane.com"
+                type="rss" xmlUrl="http://www.helenjane.com/atom.xml" htmlUrl="http://www.helenjane.com/"/>
+            <entry text="Megnut" title="Megnut" type="rss"
+                xmlUrl="http://feeds.megnut.com/megnut" htmlUrl="http://www.megnut.com/"/>
+            <entry
+                text="Serious Eats: Features, Videos and Required Eating"
+                title="Serious Eats: Features, Videos and Required Eating"
+                type="rss"
+                xmlUrl="http://feeds.seriouseats.com/seriouseatsfeaturesvideos" htmlUrl="http://www.seriouseats.com/"/>
+            <entry text="The Pioneer Woman Cooks!"
+                title="The Pioneer Woman Cooks!" type="rss"
+                xmlUrl="http://feeds.feedburner.com/thepioneerwomancooks" htmlUrl="http://thepioneerwomancooks.com/feed"/>
+            <entry text="www.eatlocalchallenge.com"
+                title="www.eatlocalchallenge.com" type="rss"
+                xmlUrl="http://www.eatlocalchallenge.com/atom.xml" htmlUrl="http://www.eatlocalchallenge.com/"/>
+        </category>
+    </body>
+</opml>
