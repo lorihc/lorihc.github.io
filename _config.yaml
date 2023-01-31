@@ -1,1 +1,7 @@
 theme: minima
+author: Lori Hylan-Cho
+
+navbar-links:
+  avocado8 blog archives: "/blog/"
+  All Hallows Eve: "/halloween"
+
