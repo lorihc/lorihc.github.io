@@ -1,0 +1,26 @@
+// Small devices (landscape phones, 576px and up)
+body {background: #FFF;}
+
+#bodybounds {width:95%;  margin: 0 auto; }
+
+#content {width:100%; }
+
+#links {width:100%; }
+
+#banner {width:100%;}
+#banner h1 {width:30%; float: left}
+				
+#subBanner {
+	clear: both;
+	width: 100%;
+	margin-top: 1em;
+}
+
+@media (min-width: 768px) {
+
+#content {width:67%; float:right; margin-left:3%}
+
+#links {width:30%; float:left; }
+
+}
+
